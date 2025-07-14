@@ -15,37 +15,37 @@ i18n
                     "projects": "Projects",
                     "downloadCV": "Download CV",
                     "projectsContent": [
-  {
-    name: "🧠 Word Guessing Game",
-    description: "Interactive word guessing game with difficulty levels (easy, normal, hard), animations, scoring system, and modern gameplay experience.",
-    url: "https://yourwebsite.com/word-guessing",
-    github: "https://github.com/youruser/word-guessing"
-  },
-  {
-    name: "🧮 Modern Calculator",
-    description: "Calculator with modern design, smooth transitions, and scientific mode.",
-    url: "https://yourwebsite.com/calculator",
-    github: "https://github.com/youruser/calculator"
-  },
-  {
-    name: "✂️ Rock Paper Scissors",
-    description: "Advanced version of the classic game with animations, scoring, and multiple modes.",
-    url: "https://yourwebsite.com/rock-paper-scissors",
-    github: "https://github.com/youruser/rock-paper-scissors"
-  },
-  {
-    name: "🚢 Battleship",
-    description: "Strategy game like Battleship with special modes and custom bot logic.",
-    url: "https://yourwebsite.com/battleship",
-    github: "https://github.com/youruser/battleship"
-  },
-  {
-    name: "💼 Portfolio Website",
-    description: "My personal developer site built with TypeScript, Tailwind, Framer Motion, and React.",
-    url: "https://yourwebsite.com",
-    github: "https://github.com/youruser/portfolio"
-  }
-],
+                        {
+                            name: "🧠 Word Guessing Game",
+                            description: "Interactive word guessing game with difficulty levels (easy, normal, hard), animations, scoring system, and modern gameplay experience.",
+                            url: "https://yourwebsite.com/word-guessing",
+                            github: "https://github.com/youruser/word-guessing"
+                        },
+                        {
+                            name: "🧮 Modern Calculator",
+                            description: "Calculator with modern design, smooth transitions, and scientific mode.",
+                            url: "https://yourwebsite.com/calculator",
+                            github: "https://github.com/youruser/calculator"
+                        },
+                        {
+                            name: "✂️ Rock Paper Scissors",
+                            description: "Advanced version of the classic game with animations, scoring, and multiple modes.",
+                            url: "https://yourwebsite.com/rock-paper-scissors",
+                            github: "https://github.com/youruser/rock-paper-scissors"
+                        },
+                        {
+                            name: "🚢 Battleship",
+                            description: "Strategy game like Battleship with special modes and custom bot logic.",
+                            url: "https://yourwebsite.com/battleship",
+                            github: "https://github.com/youruser/battleship"
+                        },
+                        {
+                            name: "💼 Portfolio Website",
+                            description: "My personal developer site built with TypeScript, Tailwind, Framer Motion, and React.",
+                            url: "https://yourwebsite.com",
+                            github: "https://github.com/youruser/portfolio"
+                        }
+                    ],
                     skills: "Skills",
                     skillsContent: [
                         "JavaScript / TypeScript",
@@ -136,37 +136,37 @@ i18n
                     "projects": "Proyectos",
                     "downloadCV": "Descargar CV",
                     "projectsContent": [
-  {
-    name: "🧠 Adivina la Palabra",
-    description: "Juego interactivo para adivinar palabras con modos de dificultad (fácil, normal, difícil), animaciones, sistema de puntuación y experiencia moderna.",
-    url: "https://tusitio.com/adivina-palabra",
-    github: "https://github.com/tuusuario/adivina-palabra"
-  },
-  {
-    name: "🧮 Calculadora Moderna",
-    description: "Calculadora con diseño moderno, transiciones suaves y modo científico.",
-    url: "https://tusitio.com/calculadora",
-    github: "https://github.com/tuusuario/calculadora"
-  },
-  {
-    name: "✂️ Piedra Papel Tijeras",
-    description: "Versión avanzada del clásico juego, con animaciones, puntuación y diferentes modos.",
-    url: "https://tusitio.com/piedra-papel-tijeras",
-    github: "https://github.com/tuusuario/piedra-papel-tijeras"
-  },
-  {
-    name: "🚢 Battleship",
-    description: "Juego de estrategia tipo Hundir la flota, con modos especiales y lógica del bot personalizada.",
-    url: "https://tusitio.com/battleship",
-    github: "https://github.com/tuusuario/battleship"
-  },
-  {
-    name: "💼 Portafolio Web",
-    description: "Mi sitio personal como desarrollador. Hecho con TypeScript, Tailwind, Framer Motion y React.",
-    url: "https://tusitio.com",
-    github: "https://github.com/tuusuario/portafolio"
-  }
-],
+                        {
+                            name: "🧠 Adivina la Palabra",
+                            description: "Juego interactivo para adivinar palabras con modos de dificultad (fácil, normal, difícil), animaciones, sistema de puntuación y experiencia moderna.",
+                            url: "https://tusitio.com/adivina-palabra",
+                            github: "https://github.com/tuusuario/adivina-palabra"
+                        },
+                        {
+                            name: "🧮 Calculadora Moderna",
+                            description: "Calculadora con diseño moderno, transiciones suaves y modo científico.",
+                            url: "https://tusitio.com/calculadora",
+                            github: "https://github.com/tuusuario/calculadora"
+                        },
+                        {
+                            name: "✂️ Piedra Papel Tijeras",
+                            description: "Versión avanzada del clásico juego, con animaciones, puntuación y diferentes modos.",
+                            url: "https://tusitio.com/piedra-papel-tijeras",
+                            github: "https://github.com/tuusuario/piedra-papel-tijeras"
+                        },
+                        {
+                            name: "🚢 Battleship",
+                            description: "Juego de estrategia tipo Hundir la flota, con modos especiales y lógica del bot personalizada.",
+                            url: "https://tusitio.com/battleship",
+                            github: "https://github.com/tuusuario/battleship"
+                        },
+                        {
+                            name: "💼 Portafolio Web",
+                            description: "Mi sitio personal como desarrollador. Hecho con TypeScript, Tailwind, Framer Motion y React.",
+                            url: "https://tusitio.com",
+                            github: "https://github.com/tuusuario/portafolio"
+                        }
+                    ],
                     skills: "Habilidades",
                     skillsContent: [
                         "JavaScript / TypeScript",
@@ -257,37 +257,37 @@ i18n
                     "projects": "Projectes",
                     "downloadCV": "Descarregar CV",
                     "projectsContent": [
-  {
-    name: "🧠 Joc d'Endevinar Paraules",
-    description: "Joc interactiu per endevinar paraules amb nivells de dificultat (fàcil, normal, difícil), animacions, sistema de puntuació i experiència moderna.",
-    url: "https://elteusite.com/joc-endevinar-paraules",
-    github: "https://github.com/elteuusuari/joc-endevinar-paraules"
-  },
-  {
-    name: "🧮 Calculadora Moderna",
-    description: "Calculadora amb disseny modern, transicions suaus i mode científic.",
-    url: "https://elteusite.com/calculadora",
-    github: "https://github.com/elteuusuari/calculadora"
-  },
-  {
-    name: "✂️ Pedra Paper Tisores",
-    description: "Versió avançada del joc clàssic, amb animacions, puntuació i diferents modes.",
-    url: "https://elteusite.com/pedra-paper-tisores",
-    github: "https://github.com/elteuusuari/pedra-paper-tisores"
-  },
-  {
-    name: "🚢 Battleship",
-    description: "Joc d'estratègia tipus Hundir la flota, amb modes especials i lògica personalitzada del bot.",
-    url: "https://elteusite.com/battleship",
-    github: "https://github.com/elteuusuari/battleship"
-  },
-  {
-    name: "💼 Portafolis Web",
-    description: "El meu lloc personal com a desenvolupador. Fet amb TypeScript, Tailwind, Framer Motion i React.",
-    url: "https://elteusite.com",
-    github: "https://github.com/elteuusuari/portafolis"
-  }
-],
+                        {
+                            name: "🧠 Joc d'Endevinar Paraules",
+                            description: "Joc interactiu per endevinar paraules amb nivells de dificultat (fàcil, normal, difícil), animacions, sistema de puntuació i experiència moderna.",
+                            url: "https://elteusite.com/joc-endevinar-paraules",
+                            github: "https://github.com/elteuusuari/joc-endevinar-paraules"
+                        },
+                        {
+                            name: "🧮 Calculadora Moderna",
+                            description: "Calculadora amb disseny modern, transicions suaus i mode científic.",
+                            url: "https://elteusite.com/calculadora",
+                            github: "https://github.com/elteuusuari/calculadora"
+                        },
+                        {
+                            name: "✂️ Pedra Paper Tisores",
+                            description: "Versió avançada del joc clàssic, amb animacions, puntuació i diferents modes.",
+                            url: "https://elteusite.com/pedra-paper-tisores",
+                            github: "https://github.com/elteuusuari/pedra-paper-tisores"
+                        },
+                        {
+                            name: "🚢 Battleship",
+                            description: "Joc d'estratègia tipus Hundir la flota, amb modes especials i lògica personalitzada del bot.",
+                            url: "https://elteusite.com/battleship",
+                            github: "https://github.com/elteuusuari/battleship"
+                        },
+                        {
+                            name: "💼 Portafolis Web",
+                            description: "El meu lloc personal com a desenvolupador. Fet amb TypeScript, Tailwind, Framer Motion i React.",
+                            url: "https://elteusite.com",
+                            github: "https://github.com/elteuusuari/portafolis"
+                        }
+                    ],
                     skills: "Habilitats",
                     skillsContent: [
                         "JavaScript / TypeScript",

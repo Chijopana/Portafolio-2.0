@@ -14,7 +14,7 @@ export default function App() {
   const _i = 0;
 
   const changeLang = (lang: string) => i18n.changeLanguage(lang)
-  const projects = t('projectsContent', { returnObjects: true }) as Array<{ name: string, description: string, url: string }>
+  const projects = t('projectsContent', { returnObjects: true }) as Array<{ name: string, description: string, url: string,  github: string }>
   const skills = t('skillsContent', { returnObjects: true }) as string[]
   const experience = t('experienceContent', { returnObjects: true }) as Array<{ company: string, role: string, period: string, details: string }>
   const education = t('educationContent', { returnObjects: true }) as Array<{ institution: string, degree: string, period: string }>
