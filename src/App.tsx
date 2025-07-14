@@ -213,56 +213,67 @@ export default function App() {
             {t('projects')}
           </h2>
           <div className="grid gap-8 sm:grid-cols-2">
-            {projects.map(({ name, description, url }, i) => (
-              <motion.a
-                key={name}
-                href={url}
-                target="_blank"
-                rel="noopener noreferrer"
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: i * 0.15, duration: 0.6, type: "spring", stiffness: 80 }}
-                whileHover={{
-                  scale: 1.06, boxShadow: darkMode
-                    ? "0 10px 15px rgba(0,0,0,0.5)"
-                    : "0 10px 15px rgba(0,0,0,0.1)"
-                }}
-                whileTap={{ scale: 0.95 }}
-                className={`rounded-xl p-6 shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col justify-between border
-            ${darkMode
-                    ? 'bg-gray-800 border-gray-700'
-                    : 'bg-white border-gray-200'
-                  }
-          `}
-              >
-                <motion.div
-                  className="w-full h-44 mb-4 overflow-hidden rounded-lg"
-                  whileHover={{ scale: 1.05, rotate: 1 }}
-                  transition={{ type: "spring", stiffness: 300, damping: 20 }}
-                >
-                  <img
-                    src={`https://picsum.photos/seed/project${i}/320/180`}
-                    alt={`Screenshot of ${name}`}
-                    className="w-full h-full object-cover"
-                    loading="lazy"
-                  />
-                </motion.div>
+            {projects.map(({ name, description, url, github }, i) => (
+  <motion.a
+    key={name}
+    href={url}
+    target="_blank"
+    rel="noopener noreferrer"
+    initial={{ opacity: 0, y: 30 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    viewport={{ once: true }}
+    transition={{ delay: i * 0.15, duration: 0.6, type: "spring", stiffness: 80 }}
+    whileHover={{
+      scale: 1.06,
+      boxShadow: darkMode
+        ? "0 10px 15px rgba(0,0,0,0.5)"
+        : "0 10px 15px rgba(0,0,0,0.1)"
+    }}
+    whileTap={{ scale: 0.95 }}
+    className={`rounded-xl p-6 shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col justify-between border
+      ${darkMode
+        ? 'bg-gray-800 border-gray-700'
+        : 'bg-white border-gray-200'
+      }`}
+  >
+    <motion.div
+      className="w-full h-44 mb-4 overflow-hidden rounded-lg"
+      whileHover={{ scale: 1.05, rotate: 1 }}
+      transition={{ type: "spring", stiffness: 300, damping: 20 }}
+    >
+      <img
+        src={`/assets/projects/thumb${i + 1}.png`} // O usa un link real si no tienes assets locales
+        alt={`Captura de ${name}`}
+        className="w-full h-full object-cover"
+        loading="lazy"
+      />
+    </motion.div>
 
-                <h3 className={`text-2xl font-semibold mb-3 transition-colors duration-300 hover:drop-shadow-lg
-            ${darkMode
-                    ? 'text-green-400 hover:text-green-300'
-                    : 'text-green-700 hover:text-green-900'
-                  }
-          `}>
-                  {name}
-                </h3>
-                <p className={`${darkMode ? 'text-gray-300' : 'text-gray-700'} flex-grow`}>{description}</p>
-                <p className={`mt-6 text-sm font-semibold underline
-            ${darkMode ? 'text-green-300' : 'text-green-600'}
-          `}>View on GitHub</p>
-              </motion.a>
-            ))}
+    <h3 className={`text-2xl font-semibold mb-3 transition-colors duration-300 hover:drop-shadow-lg
+      ${darkMode
+        ? 'text-green-400 hover:text-green-300'
+        : 'text-green-700 hover:text-green-900'
+      }`}>
+      {name}
+    </h3>
+
+    <p className={`${darkMode ? 'text-gray-300' : 'text-gray-700'} flex-grow`}>
+      {description}
+    </p>
+
+    <a
+      href={github}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={`mt-6 text-sm font-semibold underline
+        ${darkMode ? 'text-green-300' : 'text-green-600'}
+      `}
+    >
+      Ver en GitHub
+    </a>
+  </motion.a>
+))}
+
           </div>
         </motion.section>
 

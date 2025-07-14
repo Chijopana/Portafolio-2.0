@@ -15,27 +15,37 @@ i18n
                     "projects": "Projects",
                     "downloadCV": "Download CV",
                     "projectsContent": [
-                        {
-                            "name": "Portfolio Website",
-                            "description": "A clean and responsive portfolio built with React, TypeScript, and Tailwind CSS showcasing my skills and projects.",
-                            "url": "https://github.com/joseblondel/portfolio"
-                        },
-                        {
-                            "name": "Task Manager App",
-                            "description": "A productivity app with React featuring drag-and-drop and real-time synchronization to help teams stay organized.",
-                            "url": "https://github.com/joseblondel/task-manager"
-                        },
-                        {
-                            "name": "Weather Dashboard",
-                            "description": "An interactive weather forecast dashboard using APIs, built with React and styled with Tailwind CSS.",
-                            "url": "https://github.com/joseblondel/weather-dashboard"
-                        },
-                        {
-                            "name": "E-commerce Store",
-                            "description": "A full-featured online store developed with Next.js and Stripe integration for smooth payment processing.",
-                            "url": "https://github.com/joseblondel/ecommerce-store"
-                        }
-                    ],
+  {
+    name: "🧠 Word Guessing Game",
+    description: "Interactive word guessing game with difficulty levels (easy, normal, hard), animations, scoring system, and modern gameplay experience.",
+    url: "https://yourwebsite.com/word-guessing",
+    github: "https://github.com/youruser/word-guessing"
+  },
+  {
+    name: "🧮 Modern Calculator",
+    description: "Calculator with modern design, smooth transitions, and scientific mode.",
+    url: "https://yourwebsite.com/calculator",
+    github: "https://github.com/youruser/calculator"
+  },
+  {
+    name: "✂️ Rock Paper Scissors",
+    description: "Advanced version of the classic game with animations, scoring, and multiple modes.",
+    url: "https://yourwebsite.com/rock-paper-scissors",
+    github: "https://github.com/youruser/rock-paper-scissors"
+  },
+  {
+    name: "🚢 Battleship",
+    description: "Strategy game like Battleship with special modes and custom bot logic.",
+    url: "https://yourwebsite.com/battleship",
+    github: "https://github.com/youruser/battleship"
+  },
+  {
+    name: "💼 Portfolio Website",
+    description: "My personal developer site built with TypeScript, Tailwind, Framer Motion, and React.",
+    url: "https://yourwebsite.com",
+    github: "https://github.com/youruser/portfolio"
+  }
+],
                     skills: "Skills",
                     skillsContent: [
                         "JavaScript / TypeScript",
@@ -77,35 +87,35 @@ i18n
                     education: "Education",
                     educationContent: [
                         {
-    "institution": "Google & Coursera",
-    "degree": "IT Support Professional Certificate",
-    "period": "2025"
-  },
-  {
-    "institution": "IBM",
-    "degree": "Foundations of Web Development",
-    "period": "2025"
-  },
-  {
-    "institution": "AWS",
-    "degree": "Foundations of Generative AI",
-    "period": "2024"
-  },
-  {
-    "institution": "freeCodeCamp",
-    "degree": "Certifications in HTML, CSS, JavaScript, Python and more",
-    "period": "2024 - 2025"
-  },
-  {
-    "institution": "Programming & AI Bootcamp",
-    "degree": "Fullstack + AI intensive training",
-    "period": "2024"
-  },
-  {
-    "institution": "High School – Venezuela",
-    "degree": "Science Track",
-    "period": "2019"
-  }
+                            "institution": "Google & Coursera",
+                            "degree": "IT Support Professional Certificate",
+                            "period": "2025"
+                        },
+                        {
+                            "institution": "IBM",
+                            "degree": "Foundations of Web Development",
+                            "period": "2025"
+                        },
+                        {
+                            "institution": "AWS",
+                            "degree": "Foundations of Generative AI",
+                            "period": "2024"
+                        },
+                        {
+                            "institution": "freeCodeCamp",
+                            "degree": "Certifications in HTML, CSS, JavaScript, Python and more",
+                            "period": "2024 - 2025"
+                        },
+                        {
+                            "institution": "Programming & AI Bootcamp",
+                            "degree": "Fullstack + AI intensive training",
+                            "period": "2024"
+                        },
+                        {
+                            "institution": "High School – Venezuela",
+                            "degree": "Science Track",
+                            "period": "2019"
+                        }
                     ],
                     contact: "Contact",
                     contactContent: "Feel free to reach out via email or LinkedIn for collaborations or job opportunities.",
@@ -126,27 +136,37 @@ i18n
                     "projects": "Proyectos",
                     "downloadCV": "Descargar CV",
                     "projectsContent": [
-                        {
-                            "name": "Sitio Web Portfolio",
-                            "description": "Un portfolio limpio y responsivo construido con React, TypeScript y Tailwind CSS que muestra mis habilidades y proyectos.",
-                            "url": "https://github.com/joseblondel/portfolio"
-                        },
-                        {
-                            "name": "App de Gestión de Tareas",
-                            "description": "Una aplicación de productividad con React que incluye funcionalidad de arrastrar y soltar y sincronización en tiempo real para equipos organizados.",
-                            "url": "https://github.com/joseblondel/task-manager"
-                        },
-                        {
-                            "name": "Panel del Clima",
-                            "description": "Un panel interactivo de pronóstico del tiempo usando APIs, construido con React y estilizado con Tailwind CSS.",
-                            "url": "https://github.com/joseblondel/weather-dashboard"
-                        },
-                        {
-                            "name": "Tienda Online",
-                            "description": "Una tienda online completa desarrollada con Next.js e integración de Stripe para pagos fluidos.",
-                            "url": "https://github.com/joseblondel/ecommerce-store"
-                        }
-                    ],
+  {
+    name: "🧠 Adivina la Palabra",
+    description: "Juego interactivo para adivinar palabras con modos de dificultad (fácil, normal, difícil), animaciones, sistema de puntuación y experiencia moderna.",
+    url: "https://tusitio.com/adivina-palabra",
+    github: "https://github.com/tuusuario/adivina-palabra"
+  },
+  {
+    name: "🧮 Calculadora Moderna",
+    description: "Calculadora con diseño moderno, transiciones suaves y modo científico.",
+    url: "https://tusitio.com/calculadora",
+    github: "https://github.com/tuusuario/calculadora"
+  },
+  {
+    name: "✂️ Piedra Papel Tijeras",
+    description: "Versión avanzada del clásico juego, con animaciones, puntuación y diferentes modos.",
+    url: "https://tusitio.com/piedra-papel-tijeras",
+    github: "https://github.com/tuusuario/piedra-papel-tijeras"
+  },
+  {
+    name: "🚢 Battleship",
+    description: "Juego de estrategia tipo Hundir la flota, con modos especiales y lógica del bot personalizada.",
+    url: "https://tusitio.com/battleship",
+    github: "https://github.com/tuusuario/battleship"
+  },
+  {
+    name: "💼 Portafolio Web",
+    description: "Mi sitio personal como desarrollador. Hecho con TypeScript, Tailwind, Framer Motion y React.",
+    url: "https://tusitio.com",
+    github: "https://github.com/tuusuario/portafolio"
+  }
+],
                     skills: "Habilidades",
                     skillsContent: [
                         "JavaScript / TypeScript",
@@ -188,35 +208,35 @@ i18n
                     education: "Educación",
                     educationContent: [
                         {
-    "institution": "Google & Coursera",
-    "degree": "Certificación Profesional de Soporte IT",
-    "period": "2025"
-  },
-  {
-    "institution": "IBM",
-    "degree": "Fundamentos del Desarrollo Web",
-    "period": "2025"
-  },
-  {
-    "institution": "AWS",
-    "degree": "Fundamentos de IA Generativa",
-    "period": "2024"
-  },
-  {
-    "institution": "freeCodeCamp",
-    "degree": "Certificaciones en HTML, CSS, JavaScript, Python y más",
-    "period": "2024 - 2025"
-  },
-  {
-    "institution": "Bootcamp de Programación e IA",
-    "degree": "Formación intensiva fullstack + IA",
-    "period": "2024"
-  },
-  {
-    "institution": "Bachillerato – Venezuela",
-    "degree": "Mención Ciencias",
-    "period": "2019"
-  }
+                            "institution": "Google & Coursera",
+                            "degree": "Certificación Profesional de Soporte IT",
+                            "period": "2025"
+                        },
+                        {
+                            "institution": "IBM",
+                            "degree": "Fundamentos del Desarrollo Web",
+                            "period": "2025"
+                        },
+                        {
+                            "institution": "AWS",
+                            "degree": "Fundamentos de IA Generativa",
+                            "period": "2024"
+                        },
+                        {
+                            "institution": "freeCodeCamp",
+                            "degree": "Certificaciones en HTML, CSS, JavaScript, Python y más",
+                            "period": "2024 - 2025"
+                        },
+                        {
+                            "institution": "Bootcamp de Programación e IA",
+                            "degree": "Formación intensiva fullstack + IA",
+                            "period": "2024"
+                        },
+                        {
+                            "institution": "Bachillerato – Venezuela",
+                            "degree": "Mención Ciencias",
+                            "period": "2019"
+                        }
                     ],
                     contact: "Contacto",
                     contactContent: "No dudes en escribirme por email o LinkedIn para colaboraciones o empleo.",
@@ -237,27 +257,37 @@ i18n
                     "projects": "Projectes",
                     "downloadCV": "Descarregar CV",
                     "projectsContent": [
-                        {
-                            "name": "Web Portfolio",
-                            "description": "Un portfolio net i responsiu construït amb React, TypeScript i Tailwind CSS que mostra les meves habilitats i projectes.",
-                            "url": "https://github.com/joseblondel/portfolio"
-                        },
-                        {
-                            "name": "App de Gestió de Tasques",
-                            "description": "Una aplicació de productivitat amb React que inclou funcionalitat d'arrossegar i deixar anar i sincronització en temps real per a equips organitzats.",
-                            "url": "https://github.com/joseblondel/task-manager"
-                        },
-                        {
-                            "name": "Panell del Temps",
-                            "description": "Un panell interactiu de previsió meteorològica utilitzant APIs, construït amb React i estilitzat amb Tailwind CSS.",
-                            "url": "https://github.com/joseblondel/weather-dashboard"
-                        },
-                        {
-                            "name": "Botiga Online",
-                            "description": "Una botiga online completa desenvolupada amb Next.js i integració de Stripe per a pagaments fluids.",
-                            "url": "https://github.com/joseblondel/ecommerce-store"
-                        }
-                    ],
+  {
+    name: "🧠 Joc d'Endevinar Paraules",
+    description: "Joc interactiu per endevinar paraules amb nivells de dificultat (fàcil, normal, difícil), animacions, sistema de puntuació i experiència moderna.",
+    url: "https://elteusite.com/joc-endevinar-paraules",
+    github: "https://github.com/elteuusuari/joc-endevinar-paraules"
+  },
+  {
+    name: "🧮 Calculadora Moderna",
+    description: "Calculadora amb disseny modern, transicions suaus i mode científic.",
+    url: "https://elteusite.com/calculadora",
+    github: "https://github.com/elteuusuari/calculadora"
+  },
+  {
+    name: "✂️ Pedra Paper Tisores",
+    description: "Versió avançada del joc clàssic, amb animacions, puntuació i diferents modes.",
+    url: "https://elteusite.com/pedra-paper-tisores",
+    github: "https://github.com/elteuusuari/pedra-paper-tisores"
+  },
+  {
+    name: "🚢 Battleship",
+    description: "Joc d'estratègia tipus Hundir la flota, amb modes especials i lògica personalitzada del bot.",
+    url: "https://elteusite.com/battleship",
+    github: "https://github.com/elteuusuari/battleship"
+  },
+  {
+    name: "💼 Portafolis Web",
+    description: "El meu lloc personal com a desenvolupador. Fet amb TypeScript, Tailwind, Framer Motion i React.",
+    url: "https://elteusite.com",
+    github: "https://github.com/elteuusuari/portafolis"
+  }
+],
                     skills: "Habilitats",
                     skillsContent: [
                         "JavaScript / TypeScript",
@@ -299,35 +329,35 @@ i18n
                     education: "Educació",
                     educationContent: [
                         {
-    "institution": "Google & Coursera",
-    "degree": "Certificat Professional de Suport IT",
-    "period": "2025"
-  },
-  {
-    "institution": "IBM",
-    "degree": "Fonaments del Desenvolupament Web",
-    "period": "2025"
-  },
-  {
-    "institution": "AWS",
-    "degree": "Fonaments de la IA Generativa",
-    "period": "2024"
-  },
-  {
-    "institution": "freeCodeCamp",
-    "degree": "Certificats en HTML, CSS, JavaScript, Python i més",
-    "period": "2024 - 2025"
-  },
-  {
-    "institution": "Bootcamp de Programació i IA",
-    "degree": "Formació intensiva fullstack + IA",
-    "period": "2024"
-  },
-  {
-    "institution": "Batxillerat – Veneçuela",
-    "degree": "Menció Ciències",
-    "period": "2019"
-  }
+                            "institution": "Google & Coursera",
+                            "degree": "Certificat Professional de Suport IT",
+                            "period": "2025"
+                        },
+                        {
+                            "institution": "IBM",
+                            "degree": "Fonaments del Desenvolupament Web",
+                            "period": "2025"
+                        },
+                        {
+                            "institution": "AWS",
+                            "degree": "Fonaments de la IA Generativa",
+                            "period": "2024"
+                        },
+                        {
+                            "institution": "freeCodeCamp",
+                            "degree": "Certificats en HTML, CSS, JavaScript, Python i més",
+                            "period": "2024 - 2025"
+                        },
+                        {
+                            "institution": "Bootcamp de Programació i IA",
+                            "degree": "Formació intensiva fullstack + IA",
+                            "period": "2024"
+                        },
+                        {
+                            "institution": "Batxillerat – Veneçuela",
+                            "degree": "Menció Ciències",
+                            "period": "2019"
+                        }
                     ],
                     contact: "Contacte",
                     contactContent: "No dubtis en contactar-me per correu o LinkedIn per a col·laboracions o feina.",
