@@ -1,3 +1,4 @@
+import React from 'react';
 import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
@@ -10,6 +11,7 @@ export default function App() {
   const { t, i18n } = useTranslation()
   const [darkMode, setDarkMode] = useState(false)
   const [showLangMenu, setShowLangMenu] = useState(false) // debajo de useState
+  const _i = 0;
 
   const changeLang = (lang: string) => i18n.changeLanguage(lang)
   const projects = t('projectsContent', { returnObjects: true }) as Array<{ name: string, description: string, url: string }>
@@ -25,13 +27,6 @@ export default function App() {
   useEffect(() => {
     localStorage.setItem('darkMode', darkMode.toString())
   }, [darkMode])
-
-  const sectionTitle = (icon: JSX.Element, text: string, color: string) => (
-    <h2 className={`text-4xl font-bold border-b-4 pb-3 inline-flex items-center gap-3 mx-auto text-${color}-600 border-${color}-500 dark:text-${color}-400 dark:border-${color}-400`}>
-      {icon}
-      {text}
-    </h2>
-  )
 
   const btnStyle = (active: boolean) => `
     px-4 py-2 rounded-md font-semibold transition-colors shadow-md
