@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
 import {
   FiMoon, FiSun, FiMail, FiLinkedin, FiUser, FiFolder, FiStar,
-  FiBook, FiAward, FiPhone, FiMapPin, FiGithub, FiInstagram, FiMessageSquare, FiChevronDown
+  FiBook, FiAward, FiPhone, FiMapPin, FiGithub, FiInstagram, FiMessageSquare, FiChevronDown, FiBookOpen
 } from 'react-icons/fi'
 
 export default function App() {
@@ -53,13 +53,13 @@ export default function App() {
     darkMode ? 'text-gray-400' : 'text-gray-600'
   }`}
 >
-  <a href="https://github.com/tuusuario" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500 transition-colors duration-300">
+  <a href="https://github.com/Chijopana" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500 transition-colors duration-300">
     <FiGithub size={24} />
   </a>
-  <a href="https://linkedin.com/in/tuusuario" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500 transition-colors duration-300">
+  <a href="https://www.linkedin.com/in/jose-manuel-blondel-moya/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500 transition-colors duration-300">
     <FiLinkedin size={24} />
   </a>
-  <a href="https://instagram.com/tuusuario" target="_blank" rel="noopener noreferrer" className="hover:text-pink-500 transition-colors duration-300">
+  <a href="https://www.instagram.com/joseblondel1" target="_blank" rel="noopener noreferrer" className="hover:text-pink-500 transition-colors duration-300">
     <FiInstagram size={24} />
   </a>
 </div>
@@ -132,13 +132,13 @@ export default function App() {
       </header>
       {/* Redes sociales móviles debajo del saludo */}
 <div className="md:hidden flex justify-center gap-6 -mt-12 mb-8 text-2xl text-gray-500">
-  <a href="https://github.com/tuusuario" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500">
+  <a href="https://github.com/Chijopana" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500">
     <FiGithub />
   </a>
-  <a href="https://linkedin.com/in/tuusuario" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500">
+  <a href="https://www.linkedin.com/in/jose-manuel-blondel-moya/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500">
     <FiLinkedin />
   </a>
-  <a href="https://instagram.com/tuusuario" target="_blank" rel="noopener noreferrer" className="hover:text-pink-500">
+  <a href="https://www.instagram.com/joseblondel1" target="_blank" rel="noopener noreferrer" className="hover:text-pink-500">
     <FiInstagram />
   </a>
 </div>
@@ -163,9 +163,19 @@ export default function App() {
             <FiStar size={30} className={darkMode ? 'text-blue-400' : 'text-blue-600'} />
             {t('about')}
           </h2>
-          <p className={`text-xl leading-relaxed ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>
-            {t('aboutContent')}
-          </p>
+          <motion.div
+  initial={{ opacity: 0, y: 20 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  viewport={{ once: true }}
+  transition={{ duration: 0.6 }}
+  className={`relative rounded-xl p-6 shadow-md transition-colors duration-300
+    ${darkMode ? 'bg-white/5 border border-gray-700 text-gray-300' : 'bg-white border border-gray-200 text-gray-700'}
+  `}
+>
+  <p className="text-xl leading-relaxed whitespace-pre-line">
+    {t('aboutContent')}
+  </p>
+</motion.div>
 
           {/* Botón para descargar CV */}
           <motion.a
@@ -328,34 +338,51 @@ export default function App() {
         </motion.section>
 
         {/* Education */}
-        <motion.section
-          id="education"
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.7 }}
-          className="space-y-8 max-w-3xl mx-auto"
-        >
-          <h2 className={`text-4xl font-bold pb-3 text-center
-      ${darkMode ? 'text-pink-400' : ''}
+<motion.section
+  id="education"
+  initial={{ opacity: 0, y: 20 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  viewport={{ once: true }}
+  transition={{ duration: 0.7 }}
+  className="space-y-8 max-w-3xl mx-auto"
+>
+  <h2 className={`text-4xl font-bold pb-3 text-center
+    ${darkMode ? 'text-pink-400' : ''}
+  `}>
+    <span className={`inline-flex items-center gap-3 border-b-4 pb-1 justify-center
+      ${darkMode ? 'border-pink-400' : 'border-pink-500'}
     `}>
-            <span className={`inline-flex items-center gap-3 border-b-4 pb-1 justify-center
-        ${darkMode ? 'border-pink-400' : 'border-pink-500'}
-      `}>
-              <FiAward size={30} className={darkMode ? 'text-pink-400' : 'text-pink-600'} />
-              {t('education')}
-            </span>
-          </h2>
-          <ul className={`list-disc pl-10 space-y-4
-      ${darkMode ? 'text-gray-300' : 'text-gray-700'}
-    `}>
-            {education.map(({ institution, degree, period }) => (
-              <li key={institution} className="text-lg">
-                <strong>{degree}</strong> - {institution} <em>({period})</em>
-              </li>
-            ))}
-          </ul>
-        </motion.section>
+      <FiAward size={30} className={darkMode ? 'text-pink-400' : 'text-pink-600'} />
+      {t('education')}
+    </span>
+  </h2>
+
+  <div className="space-y-6">
+    {education.map(({ institution, degree, period }, i) => (
+      <motion.div
+        key={i}
+        initial={{ opacity: 0, x: -30 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.5, delay: i * 0.1 }}
+        viewport={{ once: true }}
+        className={`flex items-start gap-4 p-4 rounded-lg shadow-md border-l-4
+          ${darkMode
+            ? 'bg-gray-900 border-pink-400 text-gray-200'
+            : 'bg-white border-pink-500 text-gray-800'}
+        `}
+      >
+        <FiBookOpen size={28} className={darkMode ? 'text-pink-400' : 'text-pink-500'} />
+
+        <div>
+          <h3 className="text-xl font-semibold">{degree}</h3>
+          <p className="text-md">{institution}</p>
+          <p className="text-sm italic text-gray-500 dark:text-gray-400">{period}</p>
+        </div>
+      </motion.div>
+    ))}
+  </div>
+</motion.section>
+
 
         {/* Contact */}
 <motion.section
@@ -384,12 +411,12 @@ export default function App() {
     ${darkMode ? 'text-blue-400' : 'text-blue-700'}
   `}>
     {[
-  { icon: <FiMail size={24} />, label: t('email'), href: `mailto:${t('email')}` },
-  { icon: <FiPhone size={24} />, label: t('phone'), href: `tel:${t('phone')}` },
+  { icon: <FiMail size={24} />, label: 'jose7blondel@gmail.com' },
+  { icon: <FiPhone size={24} />, label: "+34 632-485-849" },
   { icon: <FiMapPin size={24} />, label: t('location') },
-  { icon: <FiGithub size={24} />, label: 'GitHub', href: t('github') },
-  { icon: <FiLinkedin size={24} />, label: 'LinkedIn', href: t('linkedin') },
-  { icon: <FiInstagram size={24} />, label: 'Instagram', href: 'https://instagram.com/tuusuario' },
+  { icon: <FiGithub size={24} />, label: 'GitHub', href: 'https://github.com/Chijopana' },
+  { icon: <FiLinkedin size={24} />, label: 'LinkedIn', href: 'https://www.linkedin.com/in/jose-manuel-blondel-moya/' },
+  { icon: <FiInstagram size={24} />, label: 'Instagram', href: 'https://instagram.com/joseblondel1' },
 ].map(({ icon, label, href }, i) => (
       <div className="flex items-center gap-3 justify-center">
         {icon}
@@ -419,54 +446,73 @@ export default function App() {
 </div>
 
   {/* Formulario de contacto atractivo */}
-  <form className="space-y-5 max-w-xl mx-auto text-left">
-    <div className={`flex items-center gap-3 px-4 py-2 rounded-md shadow-md border focus-within:ring-2 focus-within:ring-blue-400
-      ${darkMode ? 'bg-gray-900 border-gray-700' : 'bg-white border-gray-300'}`}
-    >
-      <FiUser className={`text-gray-400 ${darkMode ? 'dark:text-gray-400' : 'text-gray-400'}`} />
-      <input
-        type="text"
-        placeholder={t('yourName') || 'Tu nombre'}
-        className={`flex-1 bg-transparent outline-none
-          ${darkMode ? 'text-gray-200 placeholder-gray-400' : 'text-gray-700 placeholder-gray-500'}`}
-      />
-    </div>
-    <div className={`flex items-center gap-3 px-4 py-2 rounded-md shadow-md border focus-within:ring-2 focus-within:ring-blue-400
-      ${darkMode ? 'bg-gray-900 border-gray-700' : 'bg-white border-gray-300'}`}
-    >
-      <FiMail className={`text-gray-400 ${darkMode ? 'dark:text-gray-400' : 'text-gray-400'}`} />
-      <input
-        type="email"
-        placeholder={t('yourEmail') || 'Tu correo'}
-        className={`flex-1 bg-transparent outline-none
-          ${darkMode ? 'text-gray-200 placeholder-gray-400' : 'text-gray-700 placeholder-gray-500'}`}
-      />
-    </div>
-    <div className={`flex items-start gap-3 px-4 py-2 rounded-md shadow-md border focus-within:ring-2 focus-within:ring-blue-400
-      ${darkMode ? 'bg-gray-900 border-gray-700' : 'bg-white border-gray-300'}`}
-    >
-      <FiMessageSquare className={`mt-2 text-gray-400 ${darkMode ? 'dark:text-gray-400' : 'text-gray-400'}`} />
-      <textarea
-        rows={4}
-        placeholder={t('yourMessage') || 'Tu mensaje'}
-        className={`flex-1 bg-transparent outline-none resize-none
-          ${darkMode ? 'text-gray-200 placeholder-gray-400' : 'text-gray-700 placeholder-gray-500'}`}
-      ></textarea>
-    </div>
+  <form 
+  className="space-y-5 max-w-xl mx-auto text-left"
+  method="POST"
+  action="https://formsubmit.co/e4024c058206774f4d44c782a4b04ec5"
+>
+  {/* 👇 Ocultos para configuración de FormSubmit */}
+  <input type="hidden" name="_captcha" value="false" />
 
-    <motion.button
-      type="submit"
-      whileHover={{ scale: 1.05 }}
-      whileTap={{ scale: 0.95 }}
-      className={`w-full py-2 rounded-md font-bold transition-colors duration-300 shadow-md
-        ${darkMode
-          ? 'bg-blue-600 text-white hover:bg-blue-500'
-          : 'bg-blue-500 text-white hover:bg-blue-600'}
-      `}
-    >
-      {t('sendMessage') || 'Enviar'}
-    </motion.button>
-  </form>
+  {/* Campo nombre */}
+  <div className={`flex items-center gap-3 px-4 py-2 rounded-md shadow-md border focus-within:ring-2 focus-within:ring-blue-400
+    ${darkMode ? 'bg-gray-900 border-gray-700' : 'bg-white border-gray-300'}`}
+  >
+    <FiUser className="text-gray-400" />
+    <input
+      name="name"
+      type="text"
+      required
+      placeholder={t('yourName') || 'Tu nombre'}
+      className={`flex-1 bg-transparent outline-none
+        ${darkMode ? 'text-gray-200 placeholder-gray-400' : 'text-gray-700 placeholder-gray-500'}`}
+    />
+  </div>
+
+  {/* Campo email */}
+  <div className={`flex items-center gap-3 px-4 py-2 rounded-md shadow-md border focus-within:ring-2 focus-within:ring-blue-400
+    ${darkMode ? 'bg-gray-900 border-gray-700' : 'bg-white border-gray-300'}`}
+  >
+    <FiMail className="text-gray-400" />
+    <input
+      name="email"
+      type="email"
+      required
+      placeholder={t('yourEmail') || 'Tu correo'}
+      className={`flex-1 bg-transparent outline-none
+        ${darkMode ? 'text-gray-200 placeholder-gray-400' : 'text-gray-700 placeholder-gray-500'}`}
+    />
+  </div>
+
+  {/* Campo mensaje */}
+  <div className={`flex items-start gap-3 px-4 py-2 rounded-md shadow-md border focus-within:ring-2 focus-within:ring-blue-400
+    ${darkMode ? 'bg-gray-900 border-gray-700' : 'bg-white border-gray-300'}`}
+  >
+    <FiMessageSquare className="mt-2 text-gray-400" />
+    <textarea
+      name="message"
+      rows={4}
+      required
+      placeholder={t('yourMessage') || 'Tu mensaje'}
+      className={`flex-1 bg-transparent outline-none resize-none
+        ${darkMode ? 'text-gray-200 placeholder-gray-400' : 'text-gray-700 placeholder-gray-500'}`}
+    ></textarea>
+  </div>
+
+  {/* Botón enviar */}
+  <motion.button
+    type="submit"
+    whileHover={{ scale: 1.05 }}
+    whileTap={{ scale: 0.95 }}
+    className={`w-full py-2 rounded-md font-bold transition-colors duration-300 shadow-md
+      ${darkMode
+        ? 'bg-blue-600 text-white hover:bg-blue-500'
+        : 'bg-blue-500 text-white hover:bg-blue-600'}`}
+  >
+    {t('sendMessage') || 'Enviar'}
+  </motion.button>
+</form>
+
 </motion.section>
 
       </main>

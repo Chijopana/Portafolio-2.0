@@ -11,7 +11,7 @@ i18n
                 translation: {
                     "greeting": "Hi, I'm Jose Blondel",
                     "about": "About Me",
-                    "aboutContent": "I'm a passionate web developer who thrives on creating modern, efficient, and beautiful digital experiences. With a strong focus on React and TypeScript, I build scalable, high-performance applications that solve real-world problems. I believe in continuous learning and collaboration, always eager to embrace new technologies and methodologies. My portfolio showcases a range of projects from sleek portfolio websites to complex task management apps, all crafted with attention to detail and user experience. If you're looking for a dedicated developer who brings creativity, technical expertise, and a proactive mindset, let's connect and build something amazing together.",
+                    "aboutContent": "I'm Jose Blondel, a junior web developer passionate about technology and continuous learning. I come from Venezuela and currently live in Catalonia, where I’ve carved my own path into the tech world. I don’t have a university degree, but I’ve built my training through a bootcamp, well-recognized courses like Google IT Support, and certifications from IBM, Amazon, plus practical projects on platforms like freeCodeCamp and The Odin Project.\n\nBesides programming, I’ve worked as a delivery driver, which taught me discipline, consistency, and how to handle real-life work environments. Today, I have experience with technologies such as JavaScript, React, Python, Node.js, Tailwind CSS, Git, and databases like MySQL and MongoDB. I see myself as self-taught, resilient, and growth-oriented.\n\nMy goal is clear: to land a job as a web developer, continue improving my technical and creative skills, and build a stable future doing what I love. I'm committed to learning, improving, and adding value.",
                     "projects": "Projects",
                     "downloadCV": "Download CV",
                     "projectsContent": [
@@ -56,48 +56,73 @@ i18n
                     experience: "Experience",
                     experienceContent: [
                         {
-                            company: "TechCorp",
-                            role: "Frontend Developer",
-                            period: "Jan 2022 - Present",
-                            details: "Building responsive web apps using React, TypeScript, and Tailwind CSS."
+                            "company": "Personal Project",
+                            "role": "Frontend Developer",
+                            "period": "2024 - Present",
+                            "details": "Designed and developed my professional portfolio using React, TypeScript, and Tailwind CSS. Implemented language switching, dark mode, and a working contact form. Fully optimized for mobile and accessibility."
                         },
                         {
-                            company: "Web Solutions",
-                            role: "Junior Developer",
-                            period: "Jun 2020 - Dec 2021",
-                            details: "Worked on internal tools and automated workflows."
+                            "company": "AI & Web Development Bootcamp",
+                            "role": "Fullstack Student",
+                            "period": "2024",
+                            "details": "Built web apps using JavaScript, Node.js, and MongoDB. Practiced agile collaboration, Git workflows, and both relational and NoSQL databases."
+                        },
+                        {
+                            "company": "FreeCodeCamp / Coursera / IBM / AWS",
+                            "role": "Self-taught Learner",
+                            "period": "2024 - Present",
+                            "details": "Earned certifications in web development, IT fundamentals, and generative AI. Gained proficiency in HTML, CSS, JavaScript, Python, and GitHub."
                         }
                     ],
                     education: "Education",
                     educationContent: [
                         {
-                            institution: "University XYZ",
-                            degree: "Bachelor of Computer Science",
-                            period: "2017 - 2021"
-                        },
-                        {
-                            institution: "Online Bootcamp ABC",
-                            degree: "Fullstack Web Development",
-                            period: "2022"
-                        }
+    "institution": "Google & Coursera",
+    "degree": "IT Support Professional Certificate",
+    "period": "2025"
+  },
+  {
+    "institution": "IBM",
+    "degree": "Foundations of Web Development",
+    "period": "2025"
+  },
+  {
+    "institution": "AWS",
+    "degree": "Foundations of Generative AI",
+    "period": "2024"
+  },
+  {
+    "institution": "freeCodeCamp",
+    "degree": "Certifications in HTML, CSS, JavaScript, Python and more",
+    "period": "2024 - 2025"
+  },
+  {
+    "institution": "Programming & AI Bootcamp",
+    "degree": "Fullstack + AI intensive training",
+    "period": "2024"
+  },
+  {
+    "institution": "High School – Venezuela",
+    "degree": "Science Track",
+    "period": "2019"
+  }
                     ],
-  contact: "Contact",
-  contactContent: "Feel free to reach out via email or LinkedIn for collaborations or job opportunities.",
-  email: "jose@example.com",
-  linkedin: "https://linkedin.com/in/joseblondel",
-  contactFormTitle: "Want to get in touch?",
-  contactFormDescription: "Send me a message and I'll get back to you soon.",
-  yourName: "Your name",
-  yourEmail: "Your email",
-  yourMessage: "Your message",
-  sendMessage: "Send"
-}
+                    contact: "Contact",
+                    contactContent: "Feel free to reach out via email or LinkedIn for collaborations or job opportunities.",
+                    location: "Spain, Barcelona",
+                    contactFormTitle: "Want to get in touch?",
+                    contactFormDescription: "Send me a message and I'll get back to you soon.",
+                    yourName: "Your name",
+                    yourEmail: "Your email",
+                    yourMessage: "Your message",
+                    sendMessage: "Send"
+                }
             },
             es: {
                 translation: {
                     "greeting": "Hola, soy Jose Blondel",
                     "about": "Sobre mí",
-                    "aboutContent": "Soy un desarrollador web apasionado que disfruta creando experiencias digitales modernas, eficientes y atractivas. Con un fuerte enfoque en React y TypeScript, construyo aplicaciones escalables y de alto rendimiento que resuelven problemas reales. Creo en el aprendizaje continuo y la colaboración, siempre con ganas de adoptar nuevas tecnologías y metodologías. Mi portafolio muestra una variedad de proyectos, desde sitios web elegantes hasta aplicaciones complejas de gestión de tareas, todos elaborados con atención al detalle y experiencia de usuario. Si buscas un desarrollador comprometido que aporte creatividad, conocimiento técnico y una mentalidad proactiva, conectemos y construyamos algo increíble juntos.",
+                    "aboutContent": "Soy Jose Blondel, un desarrollador web junior apasionado por la tecnología y el aprendizaje constante. Vengo de Venezuela y actualmente vivo en Cataluña, donde he trazado mi propio camino hacia el mundo tech. No tengo una carrera universitaria, pero he construido mi formación a través de un bootcamp, cursos reconocidos como el de Google IT Support, certificaciones de IBM, Amazon y varios proyectos prácticos en plataformas como freeCodeCamp y The Odin Project.\n\nAdemás de programar, he trabajado como repartidor, lo que me ha enseñado disciplina, constancia y cómo manejarme en entornos reales. Hoy, tengo experiencia con tecnologías como JavaScript, React, Python, Node.js, Tailwind CSS, Git y bases de datos como MySQL y MongoDB. Me defino como una persona autodidacta, resiliente y enfocada en crecer.\n\nMi objetivo es claro: conseguir un puesto como desarrollador web, seguir mejorando mis habilidades técnicas y creativas, y construir un futuro estable que me permita trabajar en lo que amo. Estoy comprometido con aprender, mejorar y aportar valor.",
                     "projects": "Proyectos",
                     "downloadCV": "Descargar CV",
                     "projectsContent": [
@@ -142,48 +167,73 @@ i18n
                     experience: "Experiencia",
                     experienceContent: [
                         {
-                            company: "TechCorp",
+                            company: "Proyecto personal",
                             role: "Desarrollador Frontend",
-                            period: "Ene 2022 - Presente",
-                            details: "Construyendo aplicaciones web responsivas usando React, TypeScript y Tailwind CSS."
+                            period: "2024 - Presente",
+                            details: "Diseñé y desarrollé mi portafolio profesional con React, TypeScript y Tailwind CSS. Implementé cambio de idioma, modo oscuro, y formulario funcional. Todo optimizado para móviles y accesibilidad."
                         },
                         {
-                            company: "Web Solutions",
-                            role: "Desarrollador Junior",
-                            period: "Jun 2020 - Dic 2021",
-                            details: "Trabajé en herramientas internas y automatización de procesos."
+                            company: "Bootcamp IA y Desarrollo Web",
+                            role: "Estudiante Fullstack",
+                            period: "2024",
+                            details: "Completé proyectos web con JavaScript, Node.js y MongoDB. Aprendí buenas prácticas de Git, trabajo en equipo ágil y bases de datos NoSQL y relacionales."
+                        },
+                        {
+                            company: "FreeCodeCamp / Coursera / IBM / AWS",
+                            role: "Aprendiz autodidacta",
+                            period: "2024 - Presente",
+                            details: "Certificaciones en desarrollo web, fundamentos de TI y herramientas de IA generativa. Dominio de HTML, CSS, JavaScript, Python y GitHub."
                         }
                     ],
                     education: "Educación",
                     educationContent: [
                         {
-                            institution: "Universidad XYZ",
-                            degree: "Grado en Informática",
-                            period: "2017 - 2021"
-                        },
-                        {
-                            institution: "Bootcamp Online ABC",
-                            degree: "Desarrollo Web Fullstack",
-                            period: "2022"
-                        }
+    "institution": "Google & Coursera",
+    "degree": "Certificación Profesional de Soporte IT",
+    "period": "2025"
+  },
+  {
+    "institution": "IBM",
+    "degree": "Fundamentos del Desarrollo Web",
+    "period": "2025"
+  },
+  {
+    "institution": "AWS",
+    "degree": "Fundamentos de IA Generativa",
+    "period": "2024"
+  },
+  {
+    "institution": "freeCodeCamp",
+    "degree": "Certificaciones en HTML, CSS, JavaScript, Python y más",
+    "period": "2024 - 2025"
+  },
+  {
+    "institution": "Bootcamp de Programación e IA",
+    "degree": "Formación intensiva fullstack + IA",
+    "period": "2024"
+  },
+  {
+    "institution": "Bachillerato – Venezuela",
+    "degree": "Mención Ciencias",
+    "period": "2019"
+  }
                     ],
                     contact: "Contacto",
-  contactContent: "No dudes en escribirme por email o LinkedIn para colaboraciones o empleo.",
-  email: "jose@example.com",
-  linkedin: "https://linkedin.com/in/joseblondel",
-  contactFormTitle: "¿Quieres ponerte en contacto?",
-  contactFormDescription: "Envíame un mensaje y te responderé pronto.",
-  yourName: "Tu nombre",
-  yourEmail: "Tu correo",
-  yourMessage: "Tu mensaje",
-  sendMessage: "Enviar"
-}
+                    contactContent: "No dudes en escribirme por email o LinkedIn para colaboraciones o empleo.",
+                    location: "España, Barcelona",
+                    contactFormTitle: "¿Quieres ponerte en contacto?",
+                    contactFormDescription: "Envíame un mensaje y te responderé pronto.",
+                    yourName: "Tu nombre",
+                    yourEmail: "Tu correo",
+                    yourMessage: "Tu mensaje",
+                    sendMessage: "Enviar"
+                }
             },
             ca: {
                 translation: {
                     "greeting": "Hola, sóc en Jose Blondel",
                     "about": "Sobre mi",
-                    "aboutContent": "Sóc un desenvolupador web apassionat que gaudeix creant experiències digitals modernes, eficients i atractives. Amb un fort enfocament en React i TypeScript, construeixo aplicacions escalables i d'alt rendiment que resolen problemes reals. Crec en l'aprenentatge continu i la col·laboració, sempre amb ganes d'adoptar noves tecnologies i metodologies. El meu portafoli mostra una varietat de projectes, des de webs elegants fins a aplicacions complexes de gestió de tasques, tots elaborats amb atenció al detall i experiència d'usuari. Si busques un desenvolupador compromès que aporti creativitat, coneixement tècnic i una mentalitat proactiva, connectem i construïm alguna cosa increïble junts.",
+                    "aboutContent": "Sóc en Jose Blondel, un desenvolupador web júnior apassionat per la tecnologia i l'aprenentatge constant. Vinc de Veneçuela i actualment visc a Catalunya, on he traçat el meu propi camí cap al món tecnològic. No tinc una carrera universitària, però he format la meva preparació a través d’un bootcamp, cursos reconeguts com el de Google IT Support, certificacions d’IBM i Amazon, i projectes pràctics a plataformes com freeCodeCamp i The Odin Project.\n\nA més de programar, he treballat com a repartidor, cosa que m'ha ensenyat disciplina, constància i com moure'm en entorns reals. Avui dia, tinc experiència amb tecnologies com JavaScript, React, Python, Node.js, Tailwind CSS, Git i bases de dades com MySQL i MongoDB. Em considero autodidacta, resilient i amb ganes de créixer.\n\nEl meu objectiu és clar: aconseguir una feina com a desenvolupador web, continuar millorant les meves habilitats tècniques i creatives, i construir un futur estable fent el que m’agrada. Estic compromès amb aprendre, millorar i aportar valor.",
                     "projects": "Projectes",
                     "downloadCV": "Descarregar CV",
                     "projectsContent": [
@@ -228,42 +278,67 @@ i18n
                     experience: "Experiència",
                     experienceContent: [
                         {
-                            company: "TechCorp",
-                            role: "Desenvolupador Frontend",
-                            period: "Gen 2022 - Present",
-                            details: "Construint aplicacions web responsives usant React, TypeScript i Tailwind CSS."
+                            "company": "Projecte personal",
+                            "role": "Desenvolupador Frontend",
+                            "period": "2024 - Present",
+                            "details": "Vaig dissenyar i desenvolupar el meu portafoli professional amb React, TypeScript i Tailwind CSS. Amb suport multilingüe, mode fosc i formulari de contacte funcional. Totalment optimitzat per a mòbils i accessibilitat."
                         },
                         {
-                            company: "Web Solutions",
-                            role: "Desenvolupador Junior",
-                            period: "Juny 2020 - Des 2021",
-                            details: "Treballant en eines internes i automatització de processos."
+                            "company": "Bootcamp d’IA i Desenvolupament Web",
+                            "role": "Estudiant Fullstack",
+                            "period": "2024",
+                            "details": "Creació de projectes web amb JavaScript, Node.js i MongoDB. Bones pràctiques amb Git, treball àgil i bases de dades relacionals i NoSQL."
+                        },
+                        {
+                            "company": "FreeCodeCamp / Coursera / IBM / AWS",
+                            "role": "Autodidacta",
+                            "period": "2024 - Present",
+                            "details": "Certificacions en desenvolupament web, fonaments de TI i IA generativa. Coneixements d'HTML, CSS, JavaScript, Python i GitHub."
                         }
                     ],
                     education: "Educació",
                     educationContent: [
                         {
-                            institution: "Universitat XYZ",
-                            degree: "Grau en Informàtica",
-                            period: "2017 - 2021"
-                        },
-                        {
-                            institution: "Bootcamp Online ABC",
-                            degree: "Desenvolupament Web Fullstack",
-                            period: "2022"
-                        }
+    "institution": "Google & Coursera",
+    "degree": "Certificat Professional de Suport IT",
+    "period": "2025"
+  },
+  {
+    "institution": "IBM",
+    "degree": "Fonaments del Desenvolupament Web",
+    "period": "2025"
+  },
+  {
+    "institution": "AWS",
+    "degree": "Fonaments de la IA Generativa",
+    "period": "2024"
+  },
+  {
+    "institution": "freeCodeCamp",
+    "degree": "Certificats en HTML, CSS, JavaScript, Python i més",
+    "period": "2024 - 2025"
+  },
+  {
+    "institution": "Bootcamp de Programació i IA",
+    "degree": "Formació intensiva fullstack + IA",
+    "period": "2024"
+  },
+  {
+    "institution": "Batxillerat – Veneçuela",
+    "degree": "Menció Ciències",
+    "period": "2019"
+  }
                     ],
                     contact: "Contacte",
-  contactContent: "No dubtis en contactar-me per correu o LinkedIn per a col·laboracions o feina.",
-  email: "jose@example.com",
-  linkedin: "https://linkedin.com/in/joseblondel",
-  contactFormTitle: "Vols posar-te en contacte?",
-  contactFormDescription: "Envia'm un missatge i et respondré aviat.",
-  yourName: "El teu nom",
-  yourEmail: "El teu correu",
-  yourMessage: "El teu missatge",
-  sendMessage: "Enviar"
-}
+                    contactContent: "No dubtis en contactar-me per correu o LinkedIn per a col·laboracions o feina.",
+                    location: "Espanya, Barcelona",
+                    contactFormTitle: "Vols posar-te en contacte?",
+                    contactFormDescription: "Envia'm un missatge i et respondré aviat.",
+                    yourName: "El teu nom",
+                    yourEmail: "El teu correu",
+                    yourMessage: "El teu missatge",
+                    sendMessage: "Enviar"
+                }
             }
         },
         fallbackLng: 'en',
