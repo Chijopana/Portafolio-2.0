@@ -24,7 +24,7 @@ i18n
                         {
                             name: "🧮 Modern Calculator",
                             description: "Calculator with modern design, smooth transitions, and scientific mode.",
-                            url: "https://github.com/Chijopana/JavaScript-Calculator",
+                            url: "https://java-script-calculator-gzhd.vercel.app/",
                             github: "https://github.com/Chijopana/JavaScript-Calculator"
                         },
                         {
@@ -36,7 +36,7 @@ i18n
                         {
                             name: "🚢 Battleship",
                             description: "Strategy game like Battleship with special modes and custom bot logic.",
-                            url: "https://github.com/Chijopana/battleship",
+                            url: "https://battleship-game-web.netlify.app/",
                             github: "https://github.com/Chijopana/battleship"
                         },
                         {
@@ -145,7 +145,7 @@ i18n
                         {
                             name: "🧮 Calculadora Moderna",
                             description: "Calculadora con diseño moderno, transiciones suaves y modo científico.",
-                            url: "https://github.com/Chijopana/JavaScript-Calculator",
+                            url: "https://java-script-calculator-gzhd.vercel.app/",
                             github: "https://github.com/Chijopana/JavaScript-Calculator"
                         },
                         {
@@ -157,7 +157,7 @@ i18n
                         {
                             name: "🚢 Battleship",
                             description: "Juego de estrategia tipo Hundir la flota, con modos especiales y lógica del bot personalizada.",
-                            url: "https://github.com/Chijopana/battleship",
+                            url: "https://battleship-game-web.netlify.app/",
                             github: "https://github.com/Chijopana/battleship"
                         },
                         {
@@ -266,7 +266,7 @@ i18n
                         {
                             name: "🧮 Calculadora Moderna",
                             description: "Calculadora amb disseny modern, transicions suaus i mode científic.",
-                            url: "https://github.com/Chijopana/JavaScript-Calculator",
+                            url: "https://java-script-calculator-gzhd.vercel.app/",
                             github: "https://github.com/Chijopana/JavaScript-Calculator"
                         },
                         {
@@ -278,7 +278,7 @@ i18n
                         {
                             name: "🚢 Battleship",
                             description: "Joc d'estratègia tipus Hundir la flota, amb modes especials i lògica personalitzada del bot.",
-                            url: "https://github.com/Chijopana/battleship",
+                            url: "https://battleship-game-web.netlify.app/",
                             github: "https://github.com/Chijopana/battleship"
                         },
                         {
