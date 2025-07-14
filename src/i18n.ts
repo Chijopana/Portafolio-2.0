@@ -18,7 +18,7 @@ i18n
                         {
                             name: "🧠 Word Guessing Game",
                             description: "Interactive word guessing game with difficulty levels (easy, normal, hard), animations, scoring system, and modern gameplay experience.",
-                            url: "https://github.com/Chijopana/Buscapalabra",
+                            url: "https://buscapalabra.vercel.app/",
                             github: "https://github.com/Chijopana/Buscapalabra"
                         },
                         {
@@ -30,7 +30,7 @@ i18n
                         {
                             name: "✂️ Rock Paper Scissors",
                             description: "Advanced version of the classic game with animations, scoring, and multiple modes.",
-                            url: "https://github.com/Chijopana/rock-paper-scissors",
+                            url: "https://rock-paper-scissors-jade-six.vercel.app/",
                             github: "https://github.com/Chijopana/rock-paper-scissors"
                         },
                         {
@@ -139,7 +139,7 @@ i18n
                         {
                             name: "🧠 Adivina la Palabra",
                             description: "Juego interactivo para adivinar palabras con modos de dificultad (fácil, normal, difícil), animaciones, sistema de puntuación y experiencia moderna.",
-                            url: "https://github.com/Chijopana/Buscapalabra",
+                            url: "https://buscapalabra.vercel.app/",
                             github: "https://github.com/Chijopana/Buscapalabra"
                         },
                         {
@@ -151,7 +151,7 @@ i18n
                         {
                             name: "✂️ Piedra Papel Tijeras",
                             description: "Versión avanzada del clásico juego, con animaciones, puntuación y diferentes modos.",
-                            url: "https://github.com/Chijopana/rock-paper-scissors",
+                            url: "https://rock-paper-scissors-jade-six.vercel.app/",
                             github: "https://github.com/Chijopana/rock-paper-scissors"
                         },
                         {
@@ -260,7 +260,7 @@ i18n
                         {
                             name: "🧠 Joc d'Endevinar Paraules",
                             description: "Joc interactiu per endevinar paraules amb nivells de dificultat (fàcil, normal, difícil), animacions, sistema de puntuació i experiència moderna.",
-                            url: "https://github.com/Chijopana/Buscapalabra",
+                            url: "https://buscapalabra.vercel.app/",
                             github: "https://github.com/Chijopana/Buscapalabra"
                         },
                         {
@@ -272,7 +272,7 @@ i18n
                         {
                             name: "✂️ Pedra Paper Tisores",
                             description: "Versió avançada del joc clàssic, amb animacions, puntuació i diferents modes.",
-                            url: "https://github.com/Chijopana/rock-paper-scissors",
+                            url: "https://rock-paper-scissors-jade-six.vercel.app/",
                             github: "https://github.com/Chijopana/rock-paper-scissors"
                         },
                         {
