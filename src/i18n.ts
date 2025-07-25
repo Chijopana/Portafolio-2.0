@@ -95,7 +95,14 @@ i18n
                             "role": "Self-taught Learner",
                             "period": "2024 - Present",
                             "details": "Earned certifications in web development, IT fundamentals, and generative AI. Gained proficiency in HTML, CSS, JavaScript, Python, and GitHub."
-                        }
+                        },
+                        {
+  "company": "IOE / Web Page Design and Development Certificate",
+  "role": "Web Development Student",
+  "period": "2024 - Present",
+  "details": "Vocational training started in February focused on building websites using HTML, CSS, JavaScript, and modern tools. Includes hands-on practice with forms, validations, accessibility, and responsive design."
+}
+
                     ],
                     education: "Education",
                     educationContent: [
@@ -228,7 +235,14 @@ i18n
                             role: "Aprendiz autodidacta",
                             period: "2024 - Presente",
                             details: "Certificaciones en desarrollo web, fundamentos de TI y herramientas de IA generativa. Dominio de HTML, CSS, JavaScript, Python y GitHub."
-                        }
+                        },
+                        {
+  "company": "IOE / CP de Confección y Desarrollo de Páginas Web",
+  "role": "Estudiante de Desarrollo Web",
+  "period": "2024 - Presente",
+  "details": "Formación profesional iniciada en febrero centrada en la creación de sitios web con HTML, CSS, JavaScript y herramientas modernas. Incluye prácticas con formularios, validaciones, accesibilidad y diseño responsive."
+}
+
                     ],
                     education: "Educación",
                     educationContent: [
@@ -362,7 +376,13 @@ i18n
                             "role": "Autodidacta",
                             "period": "2024 - Present",
                             "details": "Certificacions en desenvolupament web, fonaments de TI i IA generativa. Coneixements d'HTML, CSS, JavaScript, Python i GitHub."
-                        }
+                        },
+                        {
+  "company": "IOE / CP de Confecció i Desenvolupament de Pàgines Web",
+  "role": "Estudiant de Desenvolupament Web",
+  "period": "2024 - Present",
+  "details": "Formació professional iniciada al febrer centrada en la creació de pàgines web amb HTML, CSS, JavaScript i eines modernes. Inclou pràctiques amb formularis, validacions, accessibilitat i disseny responsive."
+}
                     ],
                     education: "Educació",
                     educationContent: [
