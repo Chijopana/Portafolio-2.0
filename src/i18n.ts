@@ -108,7 +108,7 @@ i18n
                     educationContent: [
                         {
                             "institution": "Instituto de Educación Online (IOE), Spain",
-                            "degree": "Higher Vocational Training in Web Page Design and Publishing (CP Confección y Publicación de Páginas Web)",
+                            "degree": "CP Web Page Design and Publishing (CP Confección y Publicación de Páginas Web)",
                             "period": "Feb 2025 - Sep 2025"
                         },
                         {
@@ -259,7 +259,7 @@ i18n
                     educationContent: [
                         {
                             "institution": "Instituto de Educación Online (IOE), España",
-                            "degree": "Ciclo Formativo de Grado Superior en Confección y Publicación de Páginas Web (CP)",
+                            "degree": "CP en Confección y Publicación de Páginas Web",
                             "period": "Feb 2025 - Sep 2025"
                         },
                         {
@@ -410,7 +410,7 @@ i18n
                     educationContent: [
                         {
                             "institution": "Institut d’Educació Online (IOE), Espanya",
-                            "degree": "Cicle Formatiu de Grau Superior en Confecció i Publicació de Pàgines Web (CP)",
+                            "degree": "CP en Confecció i Publicació de Pàgines Web",
                             "period": "Febrer 2025 - Setembre 2025"
                         },
                         {
