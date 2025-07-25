@@ -44,7 +44,20 @@ i18n
                             description: "My personal developer site built with TypeScript, Tailwind, Framer Motion, and React.",
                             url: "https://www.joseblondel.dev/",
                             github: "https://github.com/Chijopana/Portafolio-2.0"
+                        }, 
+                        {
+                            name: "🛒 Mini E-Commerce",
+                            description: "A mini e-commerce project built with Angular and Angular Material. It includes a product list, shopping cart, and checkout form with validation.",
+                            url: "https://chijopana.github.io/E-commerce/",
+                            github: "https://github.com/Chijopana/E-commerce"
+                        }, 
+                        {
+                            name: "🗂️ Task Manager",
+                            description: "Task Manager app with JWT authentication, secure login and registration, built with Node.js, Express, MongoDB, and React.",
+                            url: "https://task-manager-front-five.vercel.app/",
+                            github: "https://github.com/Chijopana/Task-Manager"
                         }
+
                     ],
                     skills: "Skills",
                     skillsContent: [
@@ -165,7 +178,19 @@ i18n
                             description: "Mi sitio personal como desarrollador. Hecho con TypeScript, Tailwind, Framer Motion y React.",
                             url: "https://www.joseblondel.dev/",
                             github: "https://github.com/Chijopana/Portafolio-2.0"
-                        }
+                        }, {
+                            name: "🛒 Mini E-Commerce",
+                            description: "Proyecto de tienda online hecho con Angular y Angular Material. Incluye lista de productos, carrito de compras y formulario de pago con validaciones.",
+                            url: "https://chijopana.github.io/E-commerce/",
+                            github: "https://github.com/Chijopana/E-commerce"
+                        },
+                        {
+  name: "🗂️ Gestor de Tareas",
+  description: "Aplicación de gestor de tareas con autenticación JWT, inicio de sesión y registro seguros, construida con Node.js, Express, MongoDB y React.",
+  url: "https://task-manager-front-five.vercel.app/",
+  github: "https://github.com/Chijopana/Task-Manager"
+}
+
                     ],
                     skills: "Habilidades",
                     skillsContent: [
@@ -286,7 +311,20 @@ i18n
                             description: "El meu lloc personal com a desenvolupador. Fet amb TypeScript, Tailwind, Framer Motion i React.",
                             url: "https://www.joseblondel.dev/",
                             github: "https://github.com/Chijopana/Portafolio-2.0"
-                        }
+                        }, {
+                            name: "🛒 Mini E-Commerce",
+                            description: "Projecte de botiga online creat amb Angular i Angular Material. Inclou llista de productes, cistella de compra i formulari de pagament amb validacions.",
+                            url: "https://chijopana.github.io/E-commerce/",
+                            github: "https://github.com/Chijopana/E-commerce"
+                        },
+                        {
+  name: "🗂️ Gestor de Tasques",
+  description: "Aplicació de gestor de tasques amb autenticació JWT, inici de sessió i registre segurs, construïda amb Node.js, Express, MongoDB i React.",
+  url: "https://task-manager-front-five.vercel.app/",
+  github: "https://github.com/Chijopana/Task-Manager"
+}
+
+
                     ],
                     skills: "Habilitats",
                     skillsContent: [
