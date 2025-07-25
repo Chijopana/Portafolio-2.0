@@ -97,15 +97,20 @@ i18n
                             "details": "Earned certifications in web development, IT fundamentals, and generative AI. Gained proficiency in HTML, CSS, JavaScript, Python, and GitHub."
                         },
                         {
-  "company": "IOE / Web Page Design and Development Certificate",
-  "role": "Web Development Student",
-  "period": "2025 - Present",
-  "details": "Vocational training started in February focused on building websites using HTML, CSS, JavaScript, and modern tools. Includes hands-on practice with forms, validations, accessibility, and responsive design."
+    "company": "IOC / Higher Vocational Training in Web Application Development (DAW)",
+    "role": "Web Application Development Student",
+    "period": "Sep 2025 - 2027",
+    "details": "Vocational training focused on developing dynamic and responsive web applications using HTML, CSS, JavaScript, and modern frameworks. Includes backend basics, databases, and deployment practices."
 }
 
                     ],
                     education: "Education",
                     educationContent: [
+                        {
+                            "institution": "Instituto de Educación Online (IOE), Spain",
+                            "degree": "Higher Vocational Training in Web Page Design and Publishing (CP Confección y Publicación de Páginas Web)",
+                            "period": "Feb 2025 - Sep 2025"
+                        },
                         {
                             "institution": "Google & Coursera",
                             "degree": "IT Support Professional Certificate",
@@ -131,8 +136,14 @@ i18n
                             "degree": "Fullstack + AI intensive training",
                             "period": "2024"
                         },
+
                         {
-                            "institution": "High School – Venezuela",
+                            "institution": "Universidad Santiago Mariño, Venezuela",
+                            "degree": "Computer Engineering (4 semesters completed)",
+                            "period": "2019 - 2021"
+                        },
+                        {
+                            "institution": "High School, Venezuela",
                             "degree": "Science Track",
                             "period": "2019"
                         }
@@ -237,15 +248,20 @@ i18n
                             details: "Certificaciones en desarrollo web, fundamentos de TI y herramientas de IA generativa. Dominio de HTML, CSS, JavaScript, Python y GitHub."
                         },
                         {
-  "company": "IOE / CP de Confección y Desarrollo de Páginas Web",
-  "role": "Estudiante de Desarrollo Web",
-  "period": "2025 - Presente",
-  "details": "Formación profesional iniciada en febrero centrada en la creación de sitios web con HTML, CSS, JavaScript y herramientas modernas. Incluye prácticas con formularios, validaciones, accesibilidad y diseño responsive."
+    "company": "IOC / Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web (DAW)",
+    "role": "Estudiante de Desarrollo de Aplicaciones Web",
+    "period": "Sept 2025 - 2027",
+    "details": "Formación profesional centrada en el desarrollo de aplicaciones web dinámicas y responsivas utilizando HTML, CSS, JavaScript y frameworks modernos. Incluye fundamentos de backend, bases de datos y prácticas de despliegue."
 }
 
                     ],
                     education: "Educación",
                     educationContent: [
+                        {
+                            "institution": "Instituto de Educación Online (IOE), España",
+                            "degree": "Ciclo Formativo de Grado Superior en Confección y Publicación de Páginas Web (CP)",
+                            "period": "Feb 2025 - Sep 2025"
+                        },
                         {
                             "institution": "Google & Coursera",
                             "degree": "Certificación Profesional de Soporte IT",
@@ -272,7 +288,12 @@ i18n
                             "period": "2024"
                         },
                         {
-                            "institution": "Bachillerato – Venezuela",
+                            "institution": "Universidad Santiago Mariño, Venezuela",
+                            "degree": "Ingeniería Informática (4 semestres cursados)",
+                            "period": "2019 - 2021"
+                        },
+                        {
+                            "institution": "Bachillerato, Venezuela",
                             "degree": "Mención Ciencias",
                             "period": "2019"
                         }
@@ -378,14 +399,20 @@ i18n
                             "details": "Certificacions en desenvolupament web, fonaments de TI i IA generativa. Coneixements d'HTML, CSS, JavaScript, Python i GitHub."
                         },
                         {
-  "company": "IOE / CP de Confecció i Desenvolupament de Pàgines Web",
-  "role": "Estudiant de Desenvolupament Web",
-  "period": "2025 - Present",
-  "details": "Formació professional iniciada al febrer centrada en la creació de pàgines web amb HTML, CSS, JavaScript i eines modernes. Inclou pràctiques amb formularis, validacions, accessibilitat i disseny responsive."
+    "company": "IOC / Cicle Formatiu de Grau Superior en Desenvolupament d’Aplicacions Web (DAW)",
+    "role": "Estudiant de Desenvolupament d’Aplicacions Web",
+    "period": "Setembre 2025 - 2027",
+    "details": "Formació professional centrada en el desenvolupament d’aplicacions web dinàmiques i responsives utilitzant HTML, CSS, JavaScript i frameworks moderns. Inclou fonaments de backend, bases de dades i pràctiques de desplegament."
 }
+
                     ],
                     education: "Educació",
                     educationContent: [
+                        {
+                            "institution": "Institut d’Educació Online (IOE), Espanya",
+                            "degree": "Cicle Formatiu de Grau Superior en Confecció i Publicació de Pàgines Web (CP)",
+                            "period": "Febrer 2025 - Setembre 2025"
+                        },
                         {
                             "institution": "Google & Coursera",
                             "degree": "Certificat Professional de Suport IT",
@@ -412,7 +439,12 @@ i18n
                             "period": "2024"
                         },
                         {
-                            "institution": "Batxillerat – Veneçuela",
+                            "institution": "Universitat Santiago Mariño, Veneçuela",
+                            "degree": "Enginyeria Informàtica (4 semestres cursats)",
+                            "period": "2019 - 2021"
+                        },
+                        {
+                            "institution": "Batxillerat, Veneçuela",
                             "degree": "Menció Ciències",
                             "period": "2019"
                         }
