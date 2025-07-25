@@ -174,7 +174,7 @@ export default function App() {
 
           {/* Botón para descargar CV */}
           <motion.a
-  href={i18n.language === 'en' ? '/Jose Manuel Blondel Moya CV Web developer Junior eng.pdf' : '/Jose Manuel Blondel Moya CV Web developer Junior.pdf'}
+  href={i18n.language === 'en' ? '/Jose Manuel Blondel Moya CV Web developer Junior.pdf' : '/Jose Manuel Blondel Moya CV Desarrollador web Junior.pdf'}
   download
   whileHover={{ scale: 1.1, boxShadow: "0 0 8px rgba(59, 130, 246, 0.6)" }}
   className={`inline-block mt-6 px-6 py-3 rounded-md font-semibold transition-colors duration-300 shadow-md

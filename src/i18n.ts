@@ -97,11 +97,11 @@ i18n
                             "details": "Earned certifications in web development, IT fundamentals, and generative AI. Gained proficiency in HTML, CSS, JavaScript, Python, and GitHub."
                         },
                         {
-    "company": "IOC / Higher Vocational Training in Web Application Development (DAW)",
-    "role": "Web Application Development Student",
-    "period": "Sep 2025 - 2027",
-    "details": "Vocational training focused on developing dynamic and responsive web applications using HTML, CSS, JavaScript, and modern frameworks. Includes backend basics, databases, and deployment practices."
-}
+                            "company": "IOC / Higher Vocational Training in Web Application Development (DAW)",
+                            "role": "Web Application Development Student",
+                            "period": "Sep 2025 - 2027",
+                            "details": "Vocational training focused on developing dynamic and responsive web applications using HTML, CSS, JavaScript, and modern frameworks. Includes backend basics, databases, and deployment practices."
+                        }
 
                     ],
                     education: "Education",
@@ -248,11 +248,11 @@ i18n
                             details: "Certificaciones en desarrollo web, fundamentos de TI y herramientas de IA generativa. Dominio de HTML, CSS, JavaScript, Python y GitHub."
                         },
                         {
-    "company": "IOC / Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web (DAW)",
-    "role": "Estudiante de Desarrollo de Aplicaciones Web",
-    "period": "Sept 2025 - 2027",
-    "details": "Formación profesional centrada en el desarrollo de aplicaciones web dinámicas y responsivas utilizando HTML, CSS, JavaScript y frameworks modernos. Incluye fundamentos de backend, bases de datos y prácticas de despliegue."
-}
+                            "company": "IOC / Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web (DAW)",
+                            "role": "Estudiante de Desarrollo de Aplicaciones Web",
+                            "period": "Sept 2025 - 2027",
+                            "details": "Formación profesional centrada en el desarrollo de aplicaciones web dinámicas y responsivas utilizando HTML, CSS, JavaScript y frameworks modernos. Incluye fundamentos de backend, bases de datos y prácticas de despliegue."
+                        }
 
                     ],
                     education: "Educación",
@@ -399,11 +399,11 @@ i18n
                             "details": "Certificacions en desenvolupament web, fonaments de TI i IA generativa. Coneixements d'HTML, CSS, JavaScript, Python i GitHub."
                         },
                         {
-    "company": "IOC / Cicle Formatiu de Grau Superior en Desenvolupament d’Aplicacions Web (DAW)",
-    "role": "Estudiant de Desenvolupament d’Aplicacions Web",
-    "period": "Setembre 2025 - 2027",
-    "details": "Formació professional centrada en el desenvolupament d’aplicacions web dinàmiques i responsives utilitzant HTML, CSS, JavaScript i frameworks moderns. Inclou fonaments de backend, bases de dades i pràctiques de desplegament."
-}
+                            "company": "IOC / Cicle Formatiu de Grau Superior en Desenvolupament d’Aplicacions Web (DAW)",
+                            "role": "Estudiant de Desenvolupament d’Aplicacions Web",
+                            "period": "Setembre 2025 - 2027",
+                            "details": "Formació professional centrada en el desenvolupament d’aplicacions web dinàmiques i responsives utilitzant HTML, CSS, JavaScript i frameworks moderns. Inclou fonaments de backend, bases de dades i pràctiques de desplegament."
+                        }
 
                     ],
                     education: "Educació",
