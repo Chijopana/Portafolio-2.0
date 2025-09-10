@@ -117,6 +117,11 @@ i18n
                             "period": "2025"
                         },
                         {
+                            "institution": "Meta & Coursera",
+                            "degree": "Front-End Development Professional Certificate",
+                            "period": "2025"
+                        },
+                        {
                             "institution": "IBM",
                             "degree": "Foundations of Web Development",
                             "period": "2025"
@@ -136,7 +141,6 @@ i18n
                             "degree": "Fullstack + AI intensive training",
                             "period": "2024"
                         },
-
                         {
                             "institution": "Universidad Santiago Mariño, Venezuela",
                             "degree": "Computer Engineering (4 semesters completed)",
@@ -147,7 +151,8 @@ i18n
                             "degree": "Science Track",
                             "period": "2019"
                         }
-                    ],
+                    ]
+                    ,
                     contact: "Contact",
                     contactContent: "Feel free to reach out via email or LinkedIn for collaborations or job opportunities.",
                     location: "Spain, Barcelona",
@@ -268,6 +273,11 @@ i18n
                             "period": "2025"
                         },
                         {
+                            "institution": "Meta & Coursera",
+                            "degree": "Certificado Profesional en Desarrollo Front-End",
+                            "period": "2025"
+                        },
+                        {
                             "institution": "IBM",
                             "degree": "Fundamentos del Desarrollo Web",
                             "period": "2025"
@@ -297,7 +307,8 @@ i18n
                             "degree": "Mención Ciencias",
                             "period": "2019"
                         }
-                    ],
+                    ]
+                    ,
                     contact: "Contacto",
                     contactContent: "No dudes en escribirme por email o LinkedIn para colaboraciones o empleo.",
                     location: "España, Barcelona",
@@ -419,6 +430,11 @@ i18n
                             "period": "2025"
                         },
                         {
+                            "institution": "Meta & Coursera",
+                            "degree": "Certificat Professional en Desenvolupament Front-End",
+                            "period": "2025"
+                        },
+                        {
                             "institution": "IBM",
                             "degree": "Fonaments del Desenvolupament Web",
                             "period": "2025"
@@ -448,7 +464,8 @@ i18n
                             "degree": "Menció Ciències",
                             "period": "2019"
                         }
-                    ],
+                    ]
+                    ,
                     contact: "Contacte",
                     contactContent: "No dubtis en contactar-me per correu o LinkedIn per a col·laboracions o feina.",
                     location: "Espanya, Barcelona",
