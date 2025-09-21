@@ -60,7 +60,7 @@ i18n
                         {
                             name: "🌤️ Weather App",
                             description: "Weather app with dynamic background, hourly and daily forecasts, draggable carousels, built with Next.js, React, and Tailwind CSS.",
-                            url: "https://weather-app.vercel.app/",
+                            url: "https://weather-app-4gmb.vercel.app/",
                             github: "https://github.com/Chijopana/weather-app"
                         }
                     ],
@@ -221,7 +221,7 @@ i18n
                         {
                             name: "🌤️ App del Clima",
                             description: "Aplicación del clima con fondo dinámico, pronósticos por horas y días, carruseles arrastrables, construida con Next.js, React y Tailwind CSS.",
-                            url: "https://weather-app.vercel.app/",
+                            url: "https://weather-app-4gmb.vercel.app/",
                             github: "https://github.com/Chijopana/weather-app"
                         }
 
@@ -383,7 +383,7 @@ i18n
                         {
                             name: "🌤️ App del Temps",
                             description: "Aplicació del temps amb fons dinàmic, pronòstics per hores i dies, carrusels arrossegables, construïda amb Next.js, React i Tailwind CSS.",
-                            url: "https://weather-app.vercel.app/",
+                            url: "https://weather-app-4gmb.vercel.app/",
                             github: "https://github.com/Chijopana/weather-app"
                         }
 
