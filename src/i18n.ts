@@ -56,8 +56,13 @@ i18n
                             description: "Task Manager app with JWT authentication, secure login and registration, built with Node.js, Express, MongoDB, and React.",
                             url: "https://task-manager-front-five.vercel.app/",
                             github: "https://github.com/Chijopana/Task-Manager"
+                        },
+                        {
+                            name: "🌤️ Weather App",
+                            description: "Weather app with dynamic background, hourly and daily forecasts, draggable carousels, built with Next.js, React, and Tailwind CSS.",
+                            url: "https://weather-app.vercel.app/",
+                            github: "https://github.com/Chijopana/weather-app"
                         }
-
                     ],
                     skills: "Skills",
                     skillsContent: [
@@ -212,6 +217,12 @@ i18n
                             description: "Aplicación de gestor de tareas con autenticación JWT, inicio de sesión y registro seguros, construida con Node.js, Express, MongoDB y React.",
                             url: "https://task-manager-front-five.vercel.app/",
                             github: "https://github.com/Chijopana/Task-Manager"
+                        },
+                        {
+                            name: "🌤️ App del Clima",
+                            description: "Aplicación del clima con fondo dinámico, pronósticos por horas y días, carruseles arrastrables, construida con Next.js, React y Tailwind CSS.",
+                            url: "https://weather-app.vercel.app/",
+                            github: "https://github.com/Chijopana/weather-app"
                         }
 
                     ],
@@ -368,8 +379,13 @@ i18n
                             description: "Aplicació de gestor de tasques amb autenticació JWT, inici de sessió i registre segurs, construïda amb Node.js, Express, MongoDB i React.",
                             url: "https://task-manager-front-five.vercel.app/",
                             github: "https://github.com/Chijopana/Task-Manager"
+                        },
+                        {
+                            name: "🌤️ App del Temps",
+                            description: "Aplicació del temps amb fons dinàmic, pronòstics per hores i dies, carrusels arrossegables, construïda amb Next.js, React i Tailwind CSS.",
+                            url: "https://weather-app.vercel.app/",
+                            github: "https://github.com/Chijopana/weather-app"
                         }
-
 
                     ],
                     skills: "Habilitats",
