@@ -36,7 +36,7 @@ i18n
                         {
                             name: "🚢 Battleship",
                             description: "Strategy game like Battleship with special modes and custom bot logic.",
-                            url: "https://battleship-game-web.netlify.app/",
+                            url: "https://battleship-web-game.netlify.app/",
                             github: "https://github.com/Chijopana/battleship"
                         },
                         {
@@ -198,7 +198,7 @@ i18n
                         {
                             name: "🚢 Battleship",
                             description: "Juego de estrategia tipo Hundir la flota, con modos especiales y lógica del bot personalizada.",
-                            url: "https://battleship-game-web.netlify.app/",
+                            url: "https://battleship-web-game.netlify.app/",
                             github: "https://github.com/Chijopana/battleship"
                         },
                         {
@@ -360,7 +360,7 @@ i18n
                         {
                             name: "🚢 Battleship",
                             description: "Joc d'estratègia tipus Hundir la flota, amb modes especials i lògica personalitzada del bot.",
-                            url: "https://battleship-game-web.netlify.app/",
+                            url: "https://battleship-web-game.netlify.app/",
                             github: "https://github.com/Chijopana/battleship"
                         },
                         {
