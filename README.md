@@ -1,69 +1,62 @@
-# React + TypeScript + Vite
+# 🌐 Portafolio – Jose Blondel
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenido a mi portafolio web, donde muestro los proyectos que he desarrollado como Frontend Developer y mi evolución construyendo interfaces modernas, dinámicas y con buenas prácticas.
 
-Currently, two official plugins are available:
+Este sitio está construido con **React + TypeScript + Vite**, optimizado para rendimiento, mantenibilidad y escalabilidad.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Demo
+👉 **Versión en producción:** ([link](https://www.joseblondel.dev/))
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## ✨ Características del Portafolio
+- Diseño moderno y limpio  
+- Animaciones sutiles y fluidas  
+- Proyectos destacados con capturas y descripciones  
+- Sección sobre mí  
+- Contacto y enlaces a redes profesionales  
+- Código organizado y basado en buenas prácticas  
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🧩 Tech Stack
+### **Frontend**
+- React  
+- TypeScript  
+- Vite  
+- CSS / Tailwind 
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### **Herramientas**
+- React Router  
+- Framer Motion
+- Git & GitHub  
+- Vercel 
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## ⭐ Proyectos Destacados
+Los siguientes proyectos están incluidos o enlazados dentro del portafolio:
+
+### 🔹 **Battleship – React**
+Juego completo con IA, múltiples modos de juego y animaciones.
+
+### 🔹 **Rock Paper Scissors**
+Interfaz dinámica, pantalla de victoria, animaciones, y modo desafío con link único.
+
+### 🔹 **Mini E-commerce – Angular + Material**
+Catálogo, carrito, checkout, servicios y diseño moderno.
+
+### 🔹 **Task Manager – MERN**
+Login con JWT, UI pulida, animaciones y despliegue en Vercel.
+
+---
+
+## 📦 Instalación y uso
+```bash
+git clone https://github.com/Chijopana/Portafolio-2.0
+cd mi-portafolio
+npm install
+npm run dev
