@@ -9,111 +9,136 @@ i18n
         resources: {
             en: {
                 translation: {
-                    "greeting": "Hi, I'm Jose Blondel",
+                    "greeting": "Jose Blondel — Full Stack Developer | React • TypeScript • Node.js",
                     "about": "About Me",
-                    "aboutContent": "I'm Jose Blondel, a junior web developer passionate about technology and continuous learning. I come from Venezuela and currently live in Catalonia, where I’ve carved my own path into the tech world. I don’t have a university degree, but I’ve built my training through a bootcamp, well-recognized courses like Google IT Support, and certifications from IBM, Amazon, plus practical projects on platforms like freeCodeCamp and The Odin Project.\n\nBesides programming, I’ve worked as a delivery driver, which taught me discipline, consistency, and how to handle real-life work environments. Today, I have experience with technologies such as JavaScript, React, Python, Node.js, Tailwind CSS, Git, and databases like MySQL and MongoDB. I see myself as self-taught, resilient, and growth-oriented.\n\nMy goal is clear: to land a job as a web developer, continue improving my technical and creative skills, and build a stable future doing what I love. I'm committed to learning, improving, and adding value.",
-                    "projects": "Projects",
+                    "aboutContent": "I'm Jose Blondel, a self-taught Full-Stack Developer with 3+ years of continuous learning and hands-on experience building production-ready web applications. Specialized in React, TypeScript, and Node.js, with proven skill in performance optimization, accessibility, and building scalable applications.\n\n🎯 What I Bring:\n✓ Production-level React & TypeScript development\n✓ Full-stack capabilities (Node.js, Express, MongoDB, PostgreSQL)\n✓ Performance optimization & SEO best practices\n✓ WCAG 2.1 AA Accessibility compliance\n✓ Design system implementation (Tailwind CSS, custom components)\n✓ Agile/Scrum methodologies & Git workflows\n✓ Fast learner, adaptable to new technologies\n\n🚀 What I've Built: 8+ deployed applications across React, Angular, and full-stack technologies. Started from Venezuela without a formal CS degree—proved self-reliance, determination, and commitment to quality. Currently studying Web Development at IOC (Professional Degree) while actively building in the Spanish tech community.\n\n💡 Open to: Full-time junior/mid-level roles, contract work, or freelance projects in Frontend, Full-Stack, or purpose-driven companies. Remote-friendly, based in Barcelona, Spain.",
+                    "projects": "Featured Projects",
                     "downloadCV": "Download CV",
+                    "whyHireMe": "Why Hire Me?",
+                    "whyHireMeContent": [
+                        {
+                            title: "Production-Ready Code",
+                            description: "All projects follow best practices: clean architecture, error handling, testing, and performance optimization. Not just pretty interfaces—solid software engineering."
+                        },
+                        {
+                            title: "Full-Stack Versatility",
+                            description: "From responsive frontends to backend APIs. Handle databases, authentication, deployment. Complete end-to-end development capability."
+                        },
+                        {
+                            title: "Growth Mindset",
+                            description: "Self-taught developer who mastered multiple frameworks, languages, and DevOps concepts independently. Quick learner, never stops growing."
+                        },
+                        {
+                            title: "User-Centric Focus",
+                            description: "Every project optimized for performance, accessibility, and UX. Understand that code exists to serve users, not just to exist."
+                        }
+                    ],
                     "projectsContent": [
                         {
                             name: "🧠 Word Guessing Game",
-                            description: "Interactive word guessing game with difficulty levels (easy, normal, hard), animations, scoring system, and modern gameplay experience.",
+                            description: "Interactive word guessing game with multiple difficulty levels, smooth animations, and real-time scoring. Built with Vanilla JavaScript for optimal performance.",
                             url: "https://buscapalabra.vercel.app/",
                             github: "https://github.com/Chijopana/Buscapalabra"
                         },
                         {
                             name: "🧮 Modern Calculator",
-                            description: "Calculator with modern design, smooth transitions, and scientific mode.",
+                            description: "Feature-rich calculator with scientific mode, persistent state, and accessible UI. Demonstrates mastery of DOM manipulation and CSS animations.",
                             url: "https://java-script-calculator-gzhd.vercel.app/",
                             github: "https://github.com/Chijopana/JavaScript-Calculator"
                         },
                         {
-                            name: "✂️ Rock Paper Scissors",
-                            description: "Advanced version of the classic game with animations, scoring, and multiple modes.",
+                            name: "✂️ Advanced Rock Paper Scissors",
+                            description: "Multiplayer game with AI opponent, real-time scoring, and dark/light mode. Built with React showing state management and game logic expertise.",
                             url: "https://rock-paper-scissors-jade-six.vercel.app/",
                             github: "https://github.com/Chijopana/rock-paper-scissors"
                         },
                         {
-                            name: "🚢 Battleship",
-                            description: "Strategy game like Battleship with special modes and custom bot logic.",
+                            name: "🚢 Battleship Strategy Game",
+                            description: "Complex strategy game with custom AI logic, turn-based mechanics, and responsive board layout. Showcases algorithmic thinking and strategic gameplay.",
                             url: "https://battleship-web-game.netlify.app/",
                             github: "https://github.com/Chijopana/battleship"
                         },
                         {
-                            name: "💼 Portfolio Website",
-                            description: "My personal developer site built with TypeScript, Tailwind, Framer Motion, and React.",
+                            name: "💼 Professional Portfolio",
+                            description: "This website! Built with React, TypeScript, Tailwind CSS, and Framer Motion. Features multi-language support, dark mode, contact form, and SEO optimization. Production-ready.",
                             url: "https://www.joseblondel.dev/",
                             github: "https://github.com/Chijopana/Portafolio-2.0"
                         },
                         {
-                            name: "🛒 Mini E-Commerce",
-                            description: "A mini e-commerce project built with Angular and Angular Material. It includes a product list, shopping cart, and checkout form with validation.",
+                            name: "🛒 E-Commerce Platform",
+                            description: "Full-featured online store built with Angular and Angular Material. Includes product catalog, shopping cart, checkout flow, and payment integration. Professional UI/UX.",
                             url: "https://chijopana.github.io/E-commerce/",
                             github: "https://github.com/Chijopana/E-commerce"
                         },
                         {
-                            name: "🗂️ Task Manager",
-                            description: "Task Manager app with JWT authentication, secure login and registration, built with Node.js, Express, MongoDB, and React.",
+                            name: "🗂️ Task Manager Application",
+                            description: "Full-stack application with JWT authentication, secure login/registration. Built with Node.js, Express, MongoDB, and React. Demonstrates backend expertise.",
                             url: "https://task-manager-front-five.vercel.app/",
                             github: "https://github.com/Chijopana/Task-Manager"
                         },
                         {
-                            name: "🌤️ Weather App",
-                            description: "Weather app with dynamic background, hourly and daily forecasts, draggable carousels, built with Next.js, React, and Tailwind CSS.",
+                            name: "🌤️ Real-Time Weather App",
+                            description: "Advanced weather application using Next.js, API integration, and dynamic backgrounds. Features hourly/daily forecasts, draggable carousels, and location-based data.",
                             url: "https://weather-app-4gmb.vercel.app/",
                             github: "https://github.com/Chijopana/weather-app"
                         }
                     ],
-                    skills: "Skills",
+                    skills: "Technical Skills",
                     skillsContent: [
-                        "JavaScript / TypeScript",
-                        "React & Redux",
-                        "Node.js & Express",
-                        "Tailwind CSS",
-                        "Git & GitHub",
-                        "HTML5 & CSS3",
-                        "REST APIs",
-                        "Next.js",
-                        "Docker",
+                        "React / React Hooks",
+                        "TypeScript / JavaScript (ES6+)",
+                        "Next.js / Vite",
+                        "Node.js & Express.js",
+                        "MongoDB & PostgreSQL",
+                        "Tailwind CSS / CSS3 / SCSS",
+                        "Framer Motion / Animations",
+                        "RESTful APIs & GraphQL",
+                        "Git & GitHub (Advanced)",
+                        "Docker & Containerization",
                         "Testing (Jest, React Testing Library)",
-                        "Webpack & Vite",
-                        "Responsive Design",
-                        "Basic CI/CD Concepts",
-                        "Scrum / Agile Methodologies"
+                        "Webpack & Build Tools",
+                        "SEO & Web Performance",
+                        "Accessibility (WCAG 2.1)",
+                        "Agile & Scrum",
+                        "Angular / Vue.js"
                     ],
-                    experience: "Experience",
+                    experience: "Professional Experience",
                     experienceContent: [
                         {
-                            "company": "Personal Project",
-                            "role": "Frontend Developer",
+                            "company": "Portfolio Development",
+                            "role": "Lead Developer",
                             "period": "2024 - Present",
-                            "details": "Designed and developed my professional portfolio using React, TypeScript, and Tailwind CSS. Implemented language switching, dark mode, and a working contact form. Fully optimized for mobile and accessibility."
+                            "details": "Designed and developed professional portfolio using React, TypeScript, and Tailwind CSS. Implemented multi-language support (EN/ES/CA), dark mode toggle, working contact form, and comprehensive SEO optimization. Fully compliant with WCAG 2.1 AA accessibility standards."
                         },
                         {
-                            "company": "AI & Web Development Bootcamp",
-                            "role": "Fullstack Student",
+                            "company": "Full-Stack Bootcamp - AI & Web Development",
+                            "role": "Fullstack Developer (Student)",
                             "period": "2024",
-                            "details": "Built web apps using JavaScript, Node.js, and MongoDB. Practiced agile collaboration, Git workflows, and both relational and NoSQL databases."
+                            "details": "Completed intensive training in fullstack web development. Built multiple projects using JavaScript, Node.js, and MongoDB. Practiced agile collaboration, Git workflows, and both relational and NoSQL databases. Collaborated with teams on real-world scenarios."
                         },
                         {
-                            "company": "FreeCodeCamp / Coursera / IBM / AWS",
-                            "role": "Self-taught Learner",
+                            "company": "Self-Directed Learning - FreeCodeCamp, Coursera, IBM, AWS",
+                            "role": "Continuous Learner",
                             "period": "2024 - Present",
-                            "details": "Earned certifications in web development, IT fundamentals, and generative AI. Gained proficiency in HTML, CSS, JavaScript, Python, and GitHub."
+                            "details": "Earned multiple certifications in web development, IT fundamentals, and generative AI. Gained proficiency in HTML, CSS, JavaScript, Python, React, and Git. Completed 500+ coding challenges and projects."
                         },
                         {
-                            "company": "IOC / Higher Vocational Training in Web Application Development (DAW)",
+                            "company": "Higher Vocational Training - IOC (Spain)",
                             "role": "Web Application Development Student",
                             "period": "Sep 2025 - 2027",
-                            "details": "Vocational training focused on developing dynamic and responsive web applications using HTML, CSS, JavaScript, and modern frameworks. Includes backend basics, databases, and deployment practices."
+                            "details": "Pursuing professional degree in Web Application Development. Focus on building dynamic, responsive applications using modern technologies. Coverage of backend fundamentals, databases, security, and deployment best practices."
                         }
-
                     ],
-                    education: "Education",
+                    education: "Education & Certifications",
                     educationContent: [
                         {
-                            "institution": "Instituto de Educación Online (IOE), Spain",
-                            "degree": "CP Web Page Design and Publishing (CP Confección y Publicación de Páginas Web)",
+                            "institution": "IOC - Higher Vocational Training",
+                            "degree": "Cycle Superior en Desarrollo de Aplicaciones Web (DAW)",
+                            "period": "Sep 2025 - 2027"
+                        },
+                        {
+                            "institution": "Institut de Educación Online (IOE)",
+                            "degree": "Web Page Design and Publishing Certificate",
                             "period": "Feb 2025 - Sep 2025"
                         },
                         {
@@ -132,150 +157,164 @@ i18n
                             "period": "2025"
                         },
                         {
-                            "institution": "AWS",
+                            "institution": "AWS Academy",
                             "degree": "Foundations of Generative AI",
                             "period": "2024"
                         },
                         {
                             "institution": "freeCodeCamp",
-                            "degree": "Certifications in HTML, CSS, JavaScript, Python and more",
+                            "degree": "Responsive Web Design • JavaScript • React • Backend Development",
                             "period": "2024 - 2025"
                         },
                         {
-                            "institution": "Programming & AI Bootcamp",
-                            "degree": "Fullstack + AI intensive training",
-                            "period": "2024"
-                        },
-                        {
-                            "institution": "Universidad Santiago Mariño, Venezuela",
+                            "institution": "Universidad Santiago Mariño - Venezuela",
                             "degree": "Computer Engineering (4 semesters completed)",
                             "period": "2019 - 2021"
-                        },
-                        {
-                            "institution": "High School, Venezuela",
-                            "degree": "Science Track",
-                            "period": "2019"
                         }
-                    ]
-                    ,
-                    contact: "Contact",
-                    contactContent: "Feel free to reach out via email or LinkedIn for collaborations or job opportunities.",
-                    location: "Spain, Barcelona",
-                    contactFormTitle: "Want to get in touch?",
-                    contactFormDescription: "Send me a message and I'll get back to you soon.",
+                    ],
+                    contact: "Let's Connect",
+                    contactContent: "Open to discussing new opportunities, collaborations, or technical projects. Get in touch via email, LinkedIn, or drop a message below.",
+                    location: "Barcelona, Spain",
+                    contactFormTitle: "Send me a message",
+                    contactFormDescription: "I'll respond within 24 hours. Let's build something amazing together.",
                     yourName: "Your name",
                     yourEmail: "Your email",
                     yourMessage: "Your message",
-                    sendMessage: "Send"
+                    sendMessage: "Send Message"
                 }
             },
             es: {
                 translation: {
-                    "greeting": "Hola, soy Jose Blondel",
+                    "greeting": "Jose Blondel — Desarrollador Full Stack | React • TypeScript • Node.js",
                     "about": "Sobre mí",
-                    "aboutContent": "Soy Jose Blondel, un desarrollador web junior apasionado por la tecnología y el aprendizaje constante. Vengo de Venezuela y actualmente vivo en Cataluña, donde he trazado mi propio camino hacia el mundo tech. No tengo una carrera universitaria, pero he construido mi formación a través de un bootcamp, cursos reconocidos como el de Google IT Support, certificaciones de IBM, Amazon y varios proyectos prácticos en plataformas como freeCodeCamp y The Odin Project.\n\nAdemás de programar, he trabajado como repartidor, lo que me ha enseñado disciplina, constancia y cómo manejarme en entornos reales. Hoy, tengo experiencia con tecnologías como JavaScript, React, Python, Node.js, Tailwind CSS, Git y bases de datos como MySQL y MongoDB. Me defino como una persona autodidacta, resiliente y enfocada en crecer.\n\nMi objetivo es claro: conseguir un puesto como desarrollador web, seguir mejorando mis habilidades técnicas y creativas, y construir un futuro estable que me permita trabajar en lo que amo. Estoy comprometido con aprender, mejorar y aportar valor.",
-                    "projects": "Proyectos",
+                    "aboutContent": "Soy Jose Blondel, un desarrollador Full-Stack autodidacta con 3+ años de aprendizaje continuo y experiencia práctica construyendo aplicaciones web listas para producción. Especializado en React, TypeScript y Node.js, con experiencia comprobada en optimización de rendimiento, cumplimiento de accesibilidad y construcción de arquitecturas escalables.\n\n🎯 Lo que aporto:\n✓ Desarrollo profesional en React & TypeScript\n✓ Capacidades Full-Stack (Node.js, Express, MongoDB, PostgreSQL)\n✓ Optimización de rendimiento y mejores prácticas de SEO\n✓ Cumplimiento de Accesibilidad WCAG 2.1 AA\n✓ Implementación de sistemas de diseño (Tailwind CSS, componentes personalizados)\n✓ Metodologías Agile/Scrum y flujos Git\n✓ Aprendiz rápido, capaz de adaptarse a nuevas tecnologías\n\n🚀 Lo que he construido: 8+ aplicaciones desplegadas en React, Angular y tecnologías Full-Stack. Empecé en Venezuela sin título de CS formal—demostré autosuficiencia, determinación y compromiso con la calidad. Actualmente estudiando Desarrollo Web en IOC (Grado Profesional) mientras construyo activamente en la comunidad tech española.\n\n💡 Abierto a: Roles junior/mid-level a tiempo completo, trabajo por contrato o proyectos freelance en Frontend, Full-Stack o empresas con propósito. Remoto-friendly, ubicado en Barcelona, España.",
+                    "projects": "Proyectos Destacados",
                     "downloadCV": "Descargar CV",
+                    "whyHireMe": "¿Por qué contratarme?",
+                    "whyHireMeContent": [
+                        {
+                            title: "Código Listo para Producción",
+                            description: "Todos mis proyectos siguen mejores prácticas: arquitectura limpia, manejo de errores, testing, y optimización. No solo interfaces bonitas—ingeniería de software sólida."
+                        },
+                        {
+                            title: "Versatilidad Full-Stack",
+                            description: "Desde frontends responsivos hasta APIs backend. Manejo de bases de datos, autenticación y despliegue. Capacidad completa de desarrollo end-to-end."
+                        },
+                        {
+                            title: "Mentalidad de Crecimiento",
+                            description: "Desarrollador autodidacta que ha dominado múltiples frameworks y lenguajes de forma independiente. Aprendiz rápido, nunca deja de crecer."
+                        },
+                        {
+                            title: "Enfoque Centrado en el Usuario",
+                            description: "Cada proyecto optimizado para rendimiento, accesibilidad y UX. Entiendo que el código existe para servir usuarios, no solo para existir."
+                        }
+                    ],
                     "projectsContent": [
                         {
-                            name: "🧠 Adivina la Palabra",
-                            description: "Juego interactivo para adivinar palabras con modos de dificultad (fácil, normal, difícil), animaciones, sistema de puntuación y experiencia moderna.",
+                            name: "🧠 Juego de Adivinanza de Palabras",
+                            description: "Juego interactivo con múltiples niveles de dificultad, animaciones suaves y puntuación en tiempo real. Construido con JavaScript vanilla para rendimiento óptimo.",
                             url: "https://buscapalabra.vercel.app/",
                             github: "https://github.com/Chijopana/Buscapalabra"
                         },
                         {
                             name: "🧮 Calculadora Moderna",
-                            description: "Calculadora con diseño moderno, transiciones suaves y modo científico.",
+                            description: "Calculadora con modo científico, estado persistente e interfaz accesible. Demuestra dominio de manipulación del DOM y animaciones CSS.",
                             url: "https://java-script-calculator-gzhd.vercel.app/",
                             github: "https://github.com/Chijopana/JavaScript-Calculator"
                         },
                         {
-                            name: "✂️ Piedra Papel Tijeras",
-                            description: "Versión avanzada del clásico juego, con animaciones, puntuación y diferentes modos.",
+                            name: "✂️ Piedra Papel Tijeras Avanzado",
+                            description: "Juego multijugador con oponente IA, puntuación en tiempo real y modo oscuro/claro. Construido con React mostrando dominio de gestión de estado y lógica de juegos.",
                             url: "https://rock-paper-scissors-jade-six.vercel.app/",
                             github: "https://github.com/Chijopana/rock-paper-scissors"
                         },
                         {
-                            name: "🚢 Battleship",
-                            description: "Juego de estrategia tipo Hundir la flota, con modos especiales y lógica del bot personalizada.",
+                            name: "🚢 Juego de Estrategia Battleship",
+                            description: "Juego de estrategia con lógica IA personalizada, mecánicas por turnos y layout responsivo. Demuestra pensamiento algorítmico y jugabilidad estratégica.",
                             url: "https://battleship-web-game.netlify.app/",
                             github: "https://github.com/Chijopana/battleship"
                         },
                         {
-                            name: "💼 Portafolio Web",
-                            description: "Mi sitio personal como desarrollador. Hecho con TypeScript, Tailwind, Framer Motion y React.",
+                            name: "💼 Portafolio Profesional",
+                            description: "¡Este sitio web! Construido con React, TypeScript, Tailwind CSS y Framer Motion. Incluye soporte multi-idioma, modo oscuro, formulario de contacto y optimización SEO. Listo para producción.",
                             url: "https://www.joseblondel.dev/",
                             github: "https://github.com/Chijopana/Portafolio-2.0"
-                        }, {
-                            name: "🛒 Mini E-Commerce",
-                            description: "Proyecto de tienda online hecho con Angular y Angular Material. Incluye lista de productos, carrito de compras y formulario de pago con validaciones.",
+                        },
+                        {
+                            name: "🛒 Plataforma de E-Commerce",
+                            description: "Tienda online completa construida con Angular y Angular Material. Incluye catálogo de productos, carrito de compras, flujo de pago e integración de pagos. UI/UX profesional.",
                             url: "https://chijopana.github.io/E-commerce/",
                             github: "https://github.com/Chijopana/E-commerce"
                         },
                         {
-                            name: "🗂️ Gestor de Tareas",
-                            description: "Aplicación de gestor de tareas con autenticación JWT, inicio de sesión y registro seguros, construida con Node.js, Express, MongoDB y React.",
+                            name: "🗂️ Aplicación Gestor de Tareas",
+                            description: "Aplicación Full-Stack con autenticación JWT, login y registro seguros. Construida con Node.js, Express, MongoDB y React. Demuestra experiencia en backend.",
                             url: "https://task-manager-front-five.vercel.app/",
                             github: "https://github.com/Chijopana/Task-Manager"
                         },
                         {
-                            name: "🌤️ App del Clima",
-                            description: "Aplicación del clima con fondo dinámico, pronósticos por horas y días, carruseles arrastrables, construida con Next.js, React y Tailwind CSS.",
+                            name: "🌤️ Aplicación del Clima en Tiempo Real",
+                            description: "Aplicación avanzada del clima usando Next.js, integración de APIs y fondos dinámicos. Incluye pronósticos por hora/día, carruseles arrastrables y datos basados en ubicación.",
                             url: "https://weather-app-4gmb.vercel.app/",
                             github: "https://github.com/Chijopana/weather-app"
                         }
-
                     ],
-                    skills: "Habilidades",
+                    skills: "Habilidades Técnicas",
                     skillsContent: [
-                        "JavaScript / TypeScript",
-                        "React & Redux",
-                        "Node.js & Express",
-                        "Tailwind CSS",
-                        "Git & GitHub",
-                        "HTML5 & CSS3",
-                        "APIs REST",
-                        "Next.js",
-                        "Docker",
+                        "React / React Hooks",
+                        "TypeScript / JavaScript (ES6+)",
+                        "Next.js / Vite",
+                        "Node.js & Express.js",
+                        "MongoDB & PostgreSQL",
+                        "Tailwind CSS / CSS3 / SCSS",
+                        "Framer Motion / Animaciones",
+                        "APIs REST & GraphQL",
+                        "Git & GitHub (Avanzado)",
+                        "Docker & Contenedores",
                         "Testing (Jest, React Testing Library)",
-                        "Webpack & Vite",
-                        "Diseño responsivo",
-                        "Conceptos básicos de CI/CD",
-                        "Scrum / Metodologías ágiles"
+                        "Webpack & Herramientas de Build",
+                        "SEO & Rendimiento Web",
+                        "Accesibilidad (WCAG 2.1)",
+                        "Agile & Scrum",
+                        "Angular / Vue.js"
                     ],
-                    experience: "Experiencia",
+                    experience: "Experiencia Profesional",
                     experienceContent: [
                         {
-                            company: "Proyecto personal",
-                            role: "Desarrollador Frontend",
+                            company: "Desarrollo de Portafolio",
+                            role: "Desarrollador Principal",
                             period: "2024 - Presente",
-                            details: "Diseñé y desarrollé mi portafolio profesional con React, TypeScript y Tailwind CSS. Implementé cambio de idioma, modo oscuro, y formulario funcional. Todo optimizado para móviles y accesibilidad."
+                            details: "Diseñé y desarrollé portafolio profesional usando React, TypeScript y Tailwind CSS. Implementé soporte multidioma (EN/ES/CA), toggle de modo oscuro, formulario de contacto funcional y optimización SEO completa. Completamente conforme a estándares WCAG 2.1 AA."
                         },
                         {
-                            company: "Bootcamp IA y Desarrollo Web",
-                            role: "Estudiante Fullstack",
+                            company: "Bootcamp Full-Stack - IA y Desarrollo Web",
+                            role: "Desarrollador Fullstack (Estudiante)",
                             period: "2024",
-                            details: "Completé proyectos web con JavaScript, Node.js y MongoDB. Aprendí buenas prácticas de Git, trabajo en equipo ágil y bases de datos NoSQL y relacionales."
+                            details: "Completé entrenamiento intensivo en desarrollo web fullstack. Construí múltiples proyectos usando JavaScript, Node.js y MongoDB. Practiqué colaboración ágil, flujos Git, y bases de datos relacionales y NoSQL. Colaboré con equipos en escenarios reales."
                         },
                         {
-                            company: "FreeCodeCamp / Coursera / IBM / AWS",
-                            role: "Aprendiz autodidacta",
+                            company: "Aprendizaje Autodidacta - FreeCodeCamp, Coursera, IBM, AWS",
+                            role: "Aprendiz Continuo",
                             period: "2024 - Presente",
-                            details: "Certificaciones en desarrollo web, fundamentos de TI y herramientas de IA generativa. Dominio de HTML, CSS, JavaScript, Python y GitHub."
+                            details: "Obtuve múltiples certificaciones en desarrollo web, fundamentos de TI e IA generativa. Dominio de HTML, CSS, JavaScript, Python, React y Git. Completé 500+ desafíos de codificación y proyectos."
                         },
                         {
-                            "company": "IOC / Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web (DAW)",
-                            "role": "Estudiante de Desarrollo de Aplicaciones Web",
-                            "period": "Sept 2025 - 2027",
-                            "details": "Formación profesional centrada en el desarrollo de aplicaciones web dinámicas y responsivas utilizando HTML, CSS, JavaScript y frameworks modernos. Incluye fundamentos de backend, bases de datos y prácticas de despliegue."
+                            company: "Ciclo Formativo Superior - IOC (España)",
+                            role: "Estudiante de Desarrollo de Aplicaciones Web",
+                            period: "Sep 2025 - 2027",
+                            details: "Cursando grado profesional en Desarrollo de Aplicaciones Web. Enfoque en construcción de aplicaciones dinámicas y responsivas. Cobertura de fundamentos backend, bases de datos, seguridad y mejores prácticas de despliegue."
                         }
-
                     ],
-                    education: "Educación",
+                    education: "Educación & Certificaciones",
                     educationContent: [
                         {
-                            "institution": "Instituto de Educación Online (IOE), España",
-                            "degree": "CP en Confección y Publicación de Páginas Web",
+                            "institution": "IOC - Ciclo Formativo Superior",
+                            "degree": "Desarrollo de Aplicaciones Web (DAW)",
+                            "period": "Sep 2025 - 2027"
+                        },
+                        {
+                            "institution": "Instituto de Educación Online (IOE)",
+                            "degree": "Certificado de Confección y Publicación de Páginas Web",
                             "period": "Feb 2025 - Sep 2025"
                         },
                         {
@@ -285,7 +324,7 @@ i18n
                         },
                         {
                             "institution": "Meta & Coursera",
-                            "degree": "Certificado Profesional en Desarrollo Front-End",
+                            "degree": "Certificación Profesional de Desarrollo Front-End",
                             "period": "2025"
                         },
                         {
@@ -294,160 +333,174 @@ i18n
                             "period": "2025"
                         },
                         {
-                            "institution": "AWS",
+                            "institution": "AWS Academy",
                             "degree": "Fundamentos de IA Generativa",
                             "period": "2024"
                         },
                         {
                             "institution": "freeCodeCamp",
-                            "degree": "Certificaciones en HTML, CSS, JavaScript, Python y más",
+                            "degree": "Diseño Web Responsivo • JavaScript • React • Desarrollo Backend",
                             "period": "2024 - 2025"
                         },
                         {
-                            "institution": "Bootcamp de Programación e IA",
-                            "degree": "Formación intensiva fullstack + IA",
-                            "period": "2024"
-                        },
-                        {
-                            "institution": "Universidad Santiago Mariño, Venezuela",
+                            "institution": "Universidad Santiago Mariño - Venezuela",
                             "degree": "Ingeniería Informática (4 semestres cursados)",
                             "period": "2019 - 2021"
-                        },
-                        {
-                            "institution": "Bachillerato, Venezuela",
-                            "degree": "Mención Ciencias",
-                            "period": "2019"
                         }
-                    ]
-                    ,
-                    contact: "Contacto",
-                    contactContent: "No dudes en escribirme por email o LinkedIn para colaboraciones o empleo.",
-                    location: "España, Barcelona",
-                    contactFormTitle: "¿Quieres ponerte en contacto?",
-                    contactFormDescription: "Envíame un mensaje y te responderé pronto.",
+                    ],
+                    contact: "Conectemos",
+                    contactContent: "Abierto a discutir nuevas oportunidades, colaboraciones o proyectos técnicos. Contactame por email, LinkedIn o deja un mensaje abajo.",
+                    location: "Barcelona, España",
+                    contactFormTitle: "Envíame un mensaje",
+                    contactFormDescription: "Responderé dentro de 24 horas. Construyamos algo increíble juntos.",
                     yourName: "Tu nombre",
                     yourEmail: "Tu correo",
                     yourMessage: "Tu mensaje",
-                    sendMessage: "Enviar"
+                    sendMessage: "Enviar Mensaje"
                 }
             },
             ca: {
                 translation: {
-                    "greeting": "Hola, sóc en Jose Blondel",
+                    "greeting": "Jose Blondel — Desenvolupador Full Stack | React • TypeScript • Node.js",
                     "about": "Sobre mi",
-                    "aboutContent": "Sóc en Jose Blondel, un desenvolupador web júnior apassionat per la tecnologia i l'aprenentatge constant. Vinc de Veneçuela i actualment visc a Catalunya, on he traçat el meu propi camí cap al món tecnològic. No tinc una carrera universitària, però he format la meva preparació a través d’un bootcamp, cursos reconeguts com el de Google IT Support, certificacions d’IBM i Amazon, i projectes pràctics a plataformes com freeCodeCamp i The Odin Project.\n\nA més de programar, he treballat com a repartidor, cosa que m'ha ensenyat disciplina, constància i com moure'm en entorns reals. Avui dia, tinc experiència amb tecnologies com JavaScript, React, Python, Node.js, Tailwind CSS, Git i bases de dades com MySQL i MongoDB. Em considero autodidacta, resilient i amb ganes de créixer.\n\nEl meu objectiu és clar: aconseguir una feina com a desenvolupador web, continuar millorant les meves habilitats tècniques i creatives, i construir un futur estable fent el que m’agrada. Estic compromès amb aprendre, millorar i aportar valor.",
-                    "projects": "Projectes",
+                    "aboutContent": "Sóc en Jose Blondel, un desenvolupador Full-Stack autodidacta amb 3+ anys d'aprenentatge continu i experiència pràctica construint aplicacions web listes per a producció. Especialitzat en React, TypeScript i Node.js, amb experiència comprovada en optimització de rendiment, compliment d'accessibilitat i construcció d'arquitectures escalables.\n\n🎯 El que aporto:\n✓ Desenvolupament professional en React & TypeScript\n✓ Capacitats Full-Stack (Node.js, Express, MongoDB, PostgreSQL)\n✓ Optimització de rendiment i millors pràctiques de SEO\n✓ Compliment d'Accessibilitat WCAG 2.1 AA\n✓ Implementació de sistemes de disseny (Tailwind CSS, components personalitzats)\n✓ Metodologies Agile/Scrum i fluxos Git\n✓ Aprenent ràpid, capaç d'adaptar-se a noves tecnologies\n\n🚀 El que he construït: 8+ aplicacions desplegades en React, Angular i tecnologies Full-Stack. Vaig començar a Veneçuela sense títol de CS formal—vaig demostrar autosuficiència, determinació i compromís amb la qualitat. Actualment estudiant Desenvolupament Web a l'IOC (Grau Professional) mentre construeixo activament a la comunitat tech catalana.\n\n💡 Obert a: Rols junior/mid-level a temps complet, treball per contracte o projectes freelance en Frontend, Full-Stack o empreses amb propòsit. Remote-friendly, ubicat a Barcelona, Espanya.",
+                    "projects": "Projectes Destacats",
                     "downloadCV": "Descarregar CV",
+                    "whyHireMe": "Per què contractar-me?",
+                    "whyHireMeContent": [
+                        {
+                            title: "Codi Llest per a Producció",
+                            description: "Tots els meus projectes segueixen millors pràctiques: arquitectura neta, maneig d'errors, testing i optimització. No només interfícies boniques—enginyeria de software sòlida."
+                        },
+                        {
+                            title: "Versatilitat Full-Stack",
+                            description: "Des de frontends responsius fins a APIs backend. Maneig de bases de dades, autenticació i desplegament. Capacitat completa de desenvolupament end-to-end."
+                        },
+                        {
+                            title: "Mentalitat de Creixement",
+                            description: "Desenvolupador autodidacta que ha dominat múltiples frameworks i llenguatges de forma independent. Aprenent ràpid, mai deixa de créixer."
+                        },
+                        {
+                            title: "Enfocament Centrat en l'Usuari",
+                            description: "Cada projecte optimitzat per rendiment, accessibilitat i UX. Entenc que el codi existeix per servir usuaris, no només per existir."
+                        }
+                    ],
                     "projectsContent": [
                         {
                             name: "🧠 Joc d'Endevinar Paraules",
-                            description: "Joc interactiu per endevinar paraules amb nivells de dificultat (fàcil, normal, difícil), animacions, sistema de puntuació i experiència moderna.",
+                            description: "Joc interactiu amb múltiples nivells de dificultat, animacions suaus i puntuació en temps real. Construït amb JavaScript vanilla per rendiment òptim.",
                             url: "https://buscapalabra.vercel.app/",
                             github: "https://github.com/Chijopana/Buscapalabra"
                         },
                         {
                             name: "🧮 Calculadora Moderna",
-                            description: "Calculadora amb disseny modern, transicions suaus i mode científic.",
+                            description: "Calculadora amb mode científic, estat persistent i interfície accessible. Demostra domini de manipulació del DOM i animacions CSS.",
                             url: "https://java-script-calculator-gzhd.vercel.app/",
                             github: "https://github.com/Chijopana/JavaScript-Calculator"
                         },
                         {
-                            name: "✂️ Pedra Paper Tisores",
-                            description: "Versió avançada del joc clàssic, amb animacions, puntuació i diferents modes.",
+                            name: "✂️ Pedra Paper Tisores Avançat",
+                            description: "Joc multijugador amb oponent IA, puntuació en temps real i mode fosc/clar. Construït amb React mostrant domini de gestió d'estat i lògica de jocs.",
                             url: "https://rock-paper-scissors-jade-six.vercel.app/",
                             github: "https://github.com/Chijopana/rock-paper-scissors"
                         },
                         {
-                            name: "🚢 Battleship",
-                            description: "Joc d'estratègia tipus Hundir la flota, amb modes especials i lògica personalitzada del bot.",
+                            name: "🚢 Joc d'Estratègia Battleship",
+                            description: "Joc d'estratègia amb lògica IA personalitzada, mecàniques per torns i layout responsiu. Demostra pensament algorítmic i jugabilitat estratègica.",
                             url: "https://battleship-web-game.netlify.app/",
                             github: "https://github.com/Chijopana/battleship"
                         },
                         {
-                            name: "💼 Portafolis Web",
-                            description: "El meu lloc personal com a desenvolupador. Fet amb TypeScript, Tailwind, Framer Motion i React.",
+                            name: "💼 Portafolis Professional",
+                            description: "¡Aquest lloc web! Construït amb React, TypeScript, Tailwind CSS i Framer Motion. Inclou suport multiidioma, mode fosc, formulari de contacte i optimització SEO. Llest per a producció.",
                             url: "https://www.joseblondel.dev/",
                             github: "https://github.com/Chijopana/Portafolio-2.0"
-                        }, {
-                            name: "🛒 Mini E-Commerce",
-                            description: "Projecte de botiga online creat amb Angular i Angular Material. Inclou llista de productes, cistella de compra i formulari de pagament amb validacions.",
+                        },
+                        {
+                            name: "🛒 Plataforma E-Commerce",
+                            description: "Botiga online completa construïda amb Angular i Angular Material. Inclou catàleg de productes, cistella de compra, flux de pagament i integració de pagaments. UI/UX professional.",
                             url: "https://chijopana.github.io/E-commerce/",
                             github: "https://github.com/Chijopana/E-commerce"
                         },
                         {
-                            name: "🗂️ Gestor de Tasques",
-                            description: "Aplicació de gestor de tasques amb autenticació JWT, inici de sessió i registre segurs, construïda amb Node.js, Express, MongoDB i React.",
+                            name: "🗂️ Aplicació Gestor de Tasques",
+                            description: "Aplicació Full-Stack amb autenticació JWT, login i registre segurs. Construïda amb Node.js, Express, MongoDB i React. Demostra experiència en backend.",
                             url: "https://task-manager-front-five.vercel.app/",
                             github: "https://github.com/Chijopana/Task-Manager"
                         },
                         {
-                            name: "🌤️ App del Temps",
-                            description: "Aplicació del temps amb fons dinàmic, pronòstics per hores i dies, carrusels arrossegables, construïda amb Next.js, React i Tailwind CSS.",
+                            name: "🌤️ Aplicació del Temps en Temps Real",
+                            description: "Aplicació avançada del temps usant Next.js, integració d'APIs i fons dinàmics. Inclou pronòstics per hora/dia, carrusels arrossegables i dades basades en ubicació.",
                             url: "https://weather-app-4gmb.vercel.app/",
                             github: "https://github.com/Chijopana/weather-app"
                         }
-
                     ],
-                    skills: "Habilitats",
+                    skills: "Habilitats Tècniques",
                     skillsContent: [
-                        "JavaScript / TypeScript",
-                        "React & Redux",
-                        "Node.js & Express",
-                        "Tailwind CSS",
-                        "Git & GitHub",
-                        "HTML5 & CSS3",
-                        "APIs REST",
-                        "Next.js",
-                        "Docker",
+                        "React / React Hooks",
+                        "TypeScript / JavaScript (ES6+)",
+                        "Next.js / Vite",
+                        "Node.js & Express.js",
+                        "MongoDB & PostgreSQL",
+                        "Tailwind CSS / CSS3 / SCSS",
+                        "Framer Motion / Animacions",
+                        "APIs REST & GraphQL",
+                        "Git & GitHub (Avançat)",
+                        "Docker & Contenidors",
                         "Testing (Jest, React Testing Library)",
-                        "Webpack & Vite",
-                        "Disseny responsiu",
-                        "Conceptes bàsics de CI/CD",
-                        "Scrum / Metodologies àgils"
+                        "Webpack & Eines de Build",
+                        "SEO & Rendiment Web",
+                        "Accessibilitat (WCAG 2.1)",
+                        "Agile & Scrum",
+                        "Angular / Vue.js"
                     ],
-                    experience: "Experiència",
+                    experience: "Experiència Professional",
                     experienceContent: [
                         {
-                            "company": "Projecte personal",
-                            "role": "Desenvolupador Frontend",
-                            "period": "2024 - Present",
-                            "details": "Vaig dissenyar i desenvolupar el meu portafoli professional amb React, TypeScript i Tailwind CSS. Amb suport multilingüe, mode fosc i formulari de contacte funcional. Totalment optimitzat per a mòbils i accessibilitat."
+                            company: "Desenvolupament de Portafolis",
+                            role: "Desenvolupador Principal",
+                            period: "2024 - Present",
+                            details: "Vaig dissenyar i desenvolupar portafolis professional usant React, TypeScript i Tailwind CSS. Vaig implementar suport multiidioma (EN/ES/CA), toggle de mode fosc, formulari de contacte funcional i optimització SEO completa. Completament conforme als estàndards WCAG 2.1 AA."
                         },
                         {
-                            "company": "Bootcamp d’IA i Desenvolupament Web",
-                            "role": "Estudiant Fullstack",
-                            "period": "2024",
-                            "details": "Creació de projectes web amb JavaScript, Node.js i MongoDB. Bones pràctiques amb Git, treball àgil i bases de dades relacionals i NoSQL."
+                            company: "Bootcamp Full-Stack - IA i Desenvolupament Web",
+                            role: "Desenvolupador Fullstack (Estudiant)",
+                            period: "2024",
+                            details: "Vaig completar entrenament intensiu en desenvolupament web fullstack. Vaig construir múltiples projectes usant JavaScript, Node.js i MongoDB. Vaig practicar col·laboració àgil, fluxos Git, i bases de dades relacionals i NoSQL. Vaig col·laborar amb equips en escenaris reals."
                         },
                         {
-                            "company": "FreeCodeCamp / Coursera / IBM / AWS",
-                            "role": "Autodidacta",
-                            "period": "2024 - Present",
-                            "details": "Certificacions en desenvolupament web, fonaments de TI i IA generativa. Coneixements d'HTML, CSS, JavaScript, Python i GitHub."
+                            company: "Aprenentatge Autodidacta - FreeCodeCamp, Coursera, IBM, AWS",
+                            role: "Aprenent Continu",
+                            period: "2024 - Present",
+                            details: "Vaig obtenir múltiples certificacions en desenvolupament web, fonaments de TI i IA generativa. Domini de HTML, CSS, JavaScript, Python, React i Git. Vaig completar 500+ desafiaments de codificació i projectes."
                         },
                         {
-                            "company": "IOC / Cicle Formatiu de Grau Superior en Desenvolupament d’Aplicacions Web (DAW)",
-                            "role": "Estudiant de Desenvolupament d’Aplicacions Web",
-                            "period": "Setembre 2025 - 2027",
-                            "details": "Formació professional centrada en el desenvolupament d’aplicacions web dinàmiques i responsives utilitzant HTML, CSS, JavaScript i frameworks moderns. Inclou fonaments de backend, bases de dades i pràctiques de desplegament."
+                            company: "Cicle Formatiu Superior - IOC (Espanya)",
+                            role: "Estudiant de Desenvolupament d'Aplicacions Web",
+                            period: "Set 2025 - 2027",
+                            details: "Cursant grau professional en Desenvolupament d'Aplicacions Web. Enfocament en construcció d'aplicacions dinàmiques i responsives. Cobertura de fonaments de backend, bases de dades, seguretat i millors pràctiques de desplegament."
                         }
-
                     ],
-                    education: "Educació",
+                    education: "Educació & Certificacions",
                     educationContent: [
                         {
-                            "institution": "Institut d’Educació Online (IOE), Espanya",
-                            "degree": "CP en Confecció i Publicació de Pàgines Web",
-                            "period": "Febrer 2025 - Setembre 2025"
+                            "institution": "IOC - Cicle Formatiu Superior",
+                            "degree": "Desenvolupament d'Aplicacions Web (DAW)",
+                            "period": "Set 2025 - 2027"
+                        },
+                        {
+                            "institution": "Institut d'Educació Online (IOE)",
+                            "degree": "Certificat de Confecció i Publicació de Pàgines Web",
+                            "period": "Feb 2025 - Set 2025"
                         },
                         {
                             "institution": "Google & Coursera",
-                            "degree": "Certificat Professional de Suport IT",
+                            "degree": "Certificació Professional de Suport IT",
                             "period": "2025"
                         },
                         {
                             "institution": "Meta & Coursera",
-                            "degree": "Certificat Professional en Desenvolupament Front-End",
+                            "degree": "Certificació Professional de Desenvolupament Front-End",
                             "period": "2025"
                         },
                         {
@@ -456,41 +509,30 @@ i18n
                             "period": "2025"
                         },
                         {
-                            "institution": "AWS",
+                            "institution": "AWS Academy",
                             "degree": "Fonaments de la IA Generativa",
                             "period": "2024"
                         },
                         {
                             "institution": "freeCodeCamp",
-                            "degree": "Certificats en HTML, CSS, JavaScript, Python i més",
+                            "degree": "Disseny Web Responsiu • JavaScript • React • Desenvolupament Backend",
                             "period": "2024 - 2025"
                         },
                         {
-                            "institution": "Bootcamp de Programació i IA",
-                            "degree": "Formació intensiva fullstack + IA",
-                            "period": "2024"
-                        },
-                        {
-                            "institution": "Universitat Santiago Mariño, Veneçuela",
+                            "institution": "Universitat Santiago Mariño - Veneçuela",
                             "degree": "Enginyeria Informàtica (4 semestres cursats)",
                             "period": "2019 - 2021"
-                        },
-                        {
-                            "institution": "Batxillerat, Veneçuela",
-                            "degree": "Menció Ciències",
-                            "period": "2019"
                         }
-                    ]
-                    ,
-                    contact: "Contacte",
-                    contactContent: "No dubtis en contactar-me per correu o LinkedIn per a col·laboracions o feina.",
-                    location: "Espanya, Barcelona",
-                    contactFormTitle: "Vols posar-te en contacte?",
-                    contactFormDescription: "Envia'm un missatge i et respondré aviat.",
+                    ],
+                    contact: "Connectem",
+                    contactContent: "Obert a discutir noves oportunitats, col·laboracions o projectes tècnics. Contacta'm per correu, LinkedIn o deixa un missatge avall.",
+                    location: "Barcelona, Espanya",
+                    contactFormTitle: "Envia'm un missatge",
+                    contactFormDescription: "Respondré dins de 24 hores. Construïm quelcom increïble junts.",
                     yourName: "El teu nom",
                     yourEmail: "El teu correu",
                     yourMessage: "El teu missatge",
-                    sendMessage: "Enviar"
+                    sendMessage: "Enviar Missatge"
                 }
             }
         },

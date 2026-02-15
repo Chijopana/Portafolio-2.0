@@ -1,6 +1,31 @@
 @import "tailwindcss";
 
 @layer utilities {
+  /* Screen Reader Only - Hide from visual display but keep accessible */
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+
+  /* Show sr-only on focus for keyboard navigation */
+  .focus\:not-sr-only:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    padding: inherit;
+    margin: inherit;
+    overflow: visible;
+    clip: auto;
+    white-space: normal;
+  }
+
   .fade-in {
     opacity: 0;
     transform: translateY(20px);
