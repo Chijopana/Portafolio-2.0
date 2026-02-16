@@ -1,4 +1,5 @@
 import React from 'react';
+// Portfolio with enhanced aesthetic improvements - v2.0.0
 import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
