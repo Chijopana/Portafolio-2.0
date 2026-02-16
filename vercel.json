@@ -94,11 +94,6 @@
       "permanent": false
     }
   ],
-  "functions": {
-    "api/**/*.ts": {
-      "maxDuration": 10
-    }
-  },
   "cleanUrls": true,
   "trailingSlash": false
 }
