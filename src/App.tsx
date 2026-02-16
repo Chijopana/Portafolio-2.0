@@ -248,7 +248,7 @@ export default function App() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.7 }}
-          className="space-y-8 max-w-4xl mx-auto"
+          className="space-y-8 max-w-4xl mx-auto text-center"
           aria-label="Why hire me section"
         >
           <h2 className={`text-2xl sm:text-3xl md:text-4xl font-bold border-b-4 pb-3 inline-flex items-center justify-center gap-2 sm:gap-3 mx-auto bg-clip-text text-transparent
