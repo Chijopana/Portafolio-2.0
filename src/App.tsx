@@ -77,7 +77,7 @@ export default function App() {
     initial={{ opacity: 0, y: -20, scale: 0.95 }}
     animate={{ opacity: 1, y: 0, scale: 1 }}
     transition={{ duration: 0.8, type: 'spring', stiffness: 80 }}
-    className={`text-6xl font-extrabold tracking-wide flex-grow max-w-4xl drop-shadow-lg bg-clip-text text-transparent bg-gradient-to-r ${
+    className={`text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-wide flex-grow max-w-4xl drop-shadow-lg bg-clip-text text-transparent bg-gradient-to-r ${
       darkMode ? 'from-blue-400 via-blue-300 to-cyan-400' : 'from-blue-700 via-blue-600 to-indigo-600'
     }`}
   >
@@ -176,13 +176,13 @@ export default function App() {
           transition={{ duration: 0.7 }}
           className="space-y-6 max-w-3xl mx-auto text-center"
         >
-          <h2 className={`text-4xl font-bold border-b-4 pb-3 inline-flex items-center gap-3 mx-auto bg-clip-text text-transparent
+          <h2 className={`text-2xl sm:text-3xl md:text-4xl font-bold border-b-4 pb-3 inline-flex items-center justify-center gap-2 sm:gap-3 mx-auto bg-clip-text text-transparent
     ${darkMode
               ? 'border-blue-400 bg-gradient-to-r from-blue-400 to-cyan-300'
               : 'border-blue-500 bg-gradient-to-r from-blue-700 to-indigo-700'
             }
   `}>
-            <FiStar size={30} className={darkMode ? 'text-blue-400' : 'text-blue-600'} />
+            <FiStar size={24} className={`sm:w-7 sm:h-7 md:w-8 md:h-8 flex-shrink-0 ${darkMode ? 'text-blue-400' : 'text-blue-600'}`} />
             {t('about')}
           </h2>
           
@@ -251,10 +251,10 @@ export default function App() {
           className="space-y-8 max-w-4xl mx-auto"
           aria-label="Why hire me section"
         >
-          <h2 className={`text-4xl font-bold border-b-4 pb-3 inline-flex items-center gap-3 mx-auto text-center bg-clip-text text-transparent
+          <h2 className={`text-2xl sm:text-3xl md:text-4xl font-bold border-b-4 pb-3 inline-flex items-center justify-center gap-2 sm:gap-3 mx-auto bg-clip-text text-transparent
             ${darkMode ? 'border-indigo-400 bg-gradient-to-r from-indigo-400 to-blue-300' : 'border-indigo-500 bg-gradient-to-r from-indigo-600 to-blue-600'}
           `}>
-            <FiAward size={30} className={darkMode ? 'text-indigo-400' : 'text-indigo-600'} />
+            <FiAward size={24} className={`sm:w-7 sm:h-7 md:w-8 md:h-8 flex-shrink-0 ${darkMode ? 'text-indigo-400' : 'text-indigo-600'}`} />
             {t('whyHireMe')}
           </h2>
           
@@ -309,13 +309,13 @@ export default function App() {
           className="max-w-5xl mx-auto text-center"
           aria-label="Featured projects"
         >
-          <h2 className={`text-4xl font-bold border-b-4 pb-3 mb-8 inline-flex items-center gap-3 justify-center bg-clip-text text-transparent
+          <h2 className={`text-2xl sm:text-3xl md:text-4xl font-bold border-b-4 pb-3 mb-8 inline-flex items-center justify-center gap-2 sm:gap-3 mx-auto bg-clip-text text-transparent
       ${darkMode
               ? 'border-green-400 bg-gradient-to-r from-green-400 to-emerald-300'
               : 'border-green-500 bg-gradient-to-r from-green-600 to-emerald-600'
             }
     `}>
-            <FiFolder size={30} className={darkMode ? 'text-green-400' : 'text-green-600'} />
+            <FiFolder size={24} className={`sm:w-7 sm:h-7 md:w-8 md:h-8 flex-shrink-0 ${darkMode ? 'text-green-400' : 'text-green-600'}`} />
             {t('projects')}
           </h2>
           <div className="grid gap-8 sm:grid-cols-2">
@@ -407,13 +407,13 @@ export default function App() {
           className="space-y-6 max-w-4xl mx-auto text-center"
           aria-label="Technical skills"
         >
-          <h2 className={`text-4xl font-bold border-b-4 pb-3 inline-flex items-center justify-center gap-3 mx-auto bg-clip-text text-transparent
+          <h2 className={`text-2xl sm:text-3xl md:text-4xl font-bold border-b-4 pb-3 inline-flex items-center justify-center gap-2 sm:gap-3 mx-auto bg-clip-text text-transparent
       ${darkMode
               ? 'border-purple-400 bg-gradient-to-r from-purple-400 to-pink-300'
               : 'border-purple-500 bg-gradient-to-r from-purple-600 to-pink-600'
             }
     `}>
-            <FiStar size={30} className={darkMode ? 'text-purple-400' : 'text-purple-600'} />
+            <FiStar size={24} className={`sm:w-7 sm:h-7 md:w-8 md:h-8 flex-shrink-0 ${darkMode ? 'text-purple-400' : 'text-purple-600'}`} />
             {t('skills')}
           </h2>
           <div className="flex flex-wrap justify-center gap-4">
@@ -444,13 +444,13 @@ export default function App() {
           transition={{ duration: 0.7 }}
           className="space-y-12 max-w-4xl mx-auto"
         >
-          <h2 className={`text-4xl font-bold pb-3 text-center bg-clip-text text-transparent
+          <h2 className={`text-2xl sm:text-3xl md:text-4xl font-bold pb-3 text-center bg-clip-text text-transparent
       ${darkMode ? 'bg-gradient-to-r from-yellow-400 to-orange-300' : 'bg-gradient-to-r from-yellow-600 to-orange-600'}
     `}>
-            <span className={`inline-flex items-center gap-3 border-b-4 pb-1 justify-center
+            <span className={`inline-flex items-center justify-center gap-2 sm:gap-3 border-b-4 pb-1
         ${darkMode ? 'border-yellow-400' : 'border-yellow-500'}
       `}>
-              <FiBook size={30} className={darkMode ? 'text-yellow-400' : 'text-yellow-600'} />
+              <FiBook size={24} className={`sm:w-7 sm:h-7 md:w-8 md:h-8 flex-shrink-0 ${darkMode ? 'text-yellow-400' : 'text-yellow-600'}`} />
               {t('experience')}
             </span>
           </h2>
@@ -485,13 +485,13 @@ export default function App() {
           transition={{ duration: 0.7 }}
           className="space-y-8 max-w-3xl mx-auto"
         >
-          <h2 className={`text-4xl font-bold pb-3 text-center bg-clip-text text-transparent
+          <h2 className={`text-2xl sm:text-3xl md:text-4xl font-bold pb-3 text-center bg-clip-text text-transparent
     ${darkMode ? 'bg-gradient-to-r from-pink-400 to-rose-300' : 'bg-gradient-to-r from-pink-600 to-rose-600'}
   `}>
-            <span className={`inline-flex items-center gap-3 border-b-4 pb-1 justify-center
+            <span className={`inline-flex items-center justify-center gap-2 sm:gap-3 border-b-4 pb-1
       ${darkMode ? 'border-pink-400' : 'border-pink-500'}
     `}>
-              <FiAward size={30} className={darkMode ? 'text-pink-400' : 'text-pink-600'} />
+              <FiAward size={24} className={`sm:w-7 sm:h-7 md:w-8 md:h-8 flex-shrink-0 ${darkMode ? 'text-pink-400' : 'text-pink-600'}`} />
               {t('education')}
             </span>
           </h2>
@@ -535,10 +535,10 @@ export default function App() {
           aria-label="Contact information and form"
         >
           {/* Título */}
-          <h2 className={`text-4xl font-bold border-b-4 pb-3 inline-flex items-center justify-center gap-3 mx-auto bg-clip-text text-transparent
+          <h2 className={`text-2xl sm:text-3xl md:text-4xl font-bold border-b-4 pb-3 inline-flex items-center justify-center gap-2 sm:gap-3 mx-auto bg-clip-text text-transparent
     ${darkMode ? 'border-blue-400 bg-gradient-to-r from-blue-400 to-cyan-300' : 'border-blue-600 bg-gradient-to-r from-blue-600 to-cyan-600'}
   `}>
-            <FiMail size={30} className={darkMode ? 'text-blue-400' : 'text-blue-600'} />
+            <FiMail size={24} className={`sm:w-7 sm:h-7 md:w-8 md:h-8 flex-shrink-0 ${darkMode ? 'text-blue-400' : 'text-blue-600'}`} />
             {t('contact')}
           </h2>
 
