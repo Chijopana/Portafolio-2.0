@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
 import {
   FiMoon, FiSun, FiMail, FiLinkedin, FiUser, FiFolder, FiStar,
-  FiBook, FiAward, FiPhone, FiMapPin, FiGithub, FiInstagram, FiMessageSquare, FiChevronDown, FiBookOpen
+  FiBook, FiAward, FiMapPin, FiGithub, FiInstagram, FiMessageSquare, FiChevronDown, FiBookOpen
 } from 'react-icons/fi'
 
 export default function App() {
@@ -39,7 +39,7 @@ export default function App() {
   `
 
   return (
-    <div className={`relative min-h-screen p-8 mx-auto shadow-2xl rounded-2xl overflow-hidden transition-colors duration-500 font-mono ${darkMode ? 'bg-gradient-to-br from-gray-950 via-slate-900 to-gray-950 text-gray-100' : 'bg-gradient-to-br from-slate-50 via-gray-50 to-blue-50 text-gray-900'}`}>
+    <div className={`relative min-h-screen p-8 mx-auto shadow-2xl rounded-2xl overflow-hidden transition-colors duration-500 font-sans ${darkMode ? 'bg-gradient-to-br from-gray-950 via-slate-900 to-gray-950 text-gray-100' : 'bg-gradient-to-br from-slate-50 via-gray-50 to-blue-50 text-gray-900'}`}>
       {/* Fondo decorativo con efecto parallax */}
       <div className={`absolute inset-0 overflow-hidden pointer-events-none ${darkMode ? 'opacity-20' : 'opacity-10'}`}>
         <div className="absolute -top-40 -right-40 w-80 h-80 rounded-full blur-3xl" style={{background: darkMode ? 'radial-gradient(circle, rgba(59, 130, 246, 0.3), transparent)' : 'radial-gradient(circle, rgba(99, 102, 241, 0.3), transparent)'}}></div>
@@ -71,6 +71,7 @@ export default function App() {
       </div>
 
       <header className="flex items-center justify-between py-6 mb-8 max-w-7xl mx-auto px-4" role="banner">
+
   <motion.h1
     initial={{ opacity: 0, y: -20, scale: 0.95 }}
     animate={{ opacity: 1, y: 0, scale: 1 }}
@@ -339,20 +340,27 @@ export default function App() {
                 aria-label={`${name}: ${description}`}
               >
                 <motion.div
-                  className="w-full h-44 mb-4 overflow-hidden rounded-xl relative group"
+                  className={`w-full h-44 mb-4 overflow-hidden rounded-xl relative group border ${darkMode ? 'border-gray-600/40 bg-gray-900/60' : 'border-gray-200 bg-white'}`}
                   whileHover={{ scale: 1.08 }}
                   transition={{ type: "spring", stiffness: 300, damping: 20 }}
                 >
-                  <img
-                    src={`/assets/projects/thumb${i + 1}.png`}
-                    alt={`Screenshot of ${name}`}
-                    className="w-full h-full object-cover group-hover:brightness-75 transition-all duration-300"
-                    loading="lazy"
-                    onError={(event) => {
-                      event.currentTarget.onerror = null
-                      event.currentTarget.src = '/preview.png'
-                    }}
-                  />
+                  <div className={`absolute top-0 inset-x-0 h-7 px-3 flex items-center gap-1.5 ${darkMode ? 'bg-gray-800/90' : 'bg-gray-100'}`}>
+                    <span className="w-2.5 h-2.5 rounded-full bg-red-400" aria-hidden="true"></span>
+                    <span className="w-2.5 h-2.5 rounded-full bg-yellow-400" aria-hidden="true"></span>
+                    <span className="w-2.5 h-2.5 rounded-full bg-green-400" aria-hidden="true"></span>
+                  </div>
+                  <div className="absolute inset-x-0 top-7 bottom-0 overflow-hidden">
+                    <img
+                      src={`/assets/projects/thumb${i + 1}.png`}
+                      alt={`Screenshot of ${name}`}
+                      className="w-full h-full object-cover group-hover:brightness-75 transition-all duration-300"
+                      loading="lazy"
+                      onError={(event) => {
+                        event.currentTarget.onerror = null
+                        event.currentTarget.src = '/preview.png'
+                      }}
+                    />
+                  </div>
                   <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </motion.div>
 
@@ -369,14 +377,14 @@ export default function App() {
                 </p>
 
                 <div className="flex gap-2 flex-wrap mb-4">
-                  {i === 0 && <span className="px-3 py-1 text-xs font-semibold bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-full shadow-sm">JavaScript</span>}
-                  {i === 1 && <span className="px-3 py-1 text-xs font-semibold bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-full shadow-sm">JavaScript</span>}
-                  {i === 2 && <span className="px-3 py-1 text-xs font-semibold bg-gradient-to-r from-cyan-500 to-cyan-600 text-white rounded-full shadow-sm">React</span>}
-                  {i === 3 && <span className="px-3 py-1 text-xs font-semibold bg-gradient-to-r from-fuchsia-500 to-fuchsia-600 text-white rounded-full shadow-sm">JavaScript</span>}
-                  {i === 4 && <><span className="px-3 py-1 text-xs font-semibold bg-gradient-to-r from-cyan-500 to-cyan-600 text-white rounded-full shadow-sm">React</span><span className="px-3 py-1 text-xs font-semibold bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-full shadow-sm">TypeScript</span></>}
-                  {i === 5 && <><span className="px-3 py-1 text-xs font-semibold bg-gradient-to-r from-red-600 to-red-700 text-white rounded-full shadow-sm">Angular</span></>}
-                  {i === 6 && <><span className="px-3 py-1 text-xs font-semibold bg-gradient-to-r from-cyan-500 to-cyan-600 text-white rounded-full shadow-sm">React</span><span className="px-3 py-1 text-xs font-semibold bg-gradient-to-r from-yellow-500 to-yellow-600 text-white rounded-full shadow-sm">Node.js</span></>}
-                  {i === 7 && <><span className="px-3 py-1 text-xs font-semibold bg-gradient-to-r from-cyan-600 to-cyan-700 text-white rounded-full shadow-sm">Next.js</span></>}
+                  {i === 0 && <span className="px-3 py-1 text-xs font-mono font-semibold bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-full shadow-sm">JavaScript</span>}
+                  {i === 1 && <span className="px-3 py-1 text-xs font-mono font-semibold bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-full shadow-sm">JavaScript</span>}
+                  {i === 2 && <span className="px-3 py-1 text-xs font-mono font-semibold bg-gradient-to-r from-cyan-500 to-cyan-600 text-white rounded-full shadow-sm">React</span>}
+                  {i === 3 && <span className="px-3 py-1 text-xs font-mono font-semibold bg-gradient-to-r from-fuchsia-500 to-fuchsia-600 text-white rounded-full shadow-sm">JavaScript</span>}
+                  {i === 4 && <><span className="px-3 py-1 text-xs font-mono font-semibold bg-gradient-to-r from-cyan-500 to-cyan-600 text-white rounded-full shadow-sm">React</span><span className="px-3 py-1 text-xs font-mono font-semibold bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-full shadow-sm">TypeScript</span></>}
+                  {i === 5 && <><span className="px-3 py-1 text-xs font-mono font-semibold bg-gradient-to-r from-red-600 to-red-700 text-white rounded-full shadow-sm">Angular</span></>}
+                  {i === 6 && <><span className="px-3 py-1 text-xs font-mono font-semibold bg-gradient-to-r from-cyan-500 to-cyan-600 text-white rounded-full shadow-sm">React</span><span className="px-3 py-1 text-xs font-mono font-semibold bg-gradient-to-r from-yellow-500 to-yellow-600 text-white rounded-full shadow-sm">Node.js</span></>}
+                  {i === 7 && <><span className="px-3 py-1 text-xs font-mono font-semibold bg-gradient-to-r from-cyan-600 to-cyan-700 text-white rounded-full shadow-sm">Next.js</span></>}
                 </div>
 
                 <div className="flex items-center justify-between gap-3">
@@ -433,7 +441,7 @@ export default function App() {
               <motion.span
                 key={skill}
                 whileHover={{ y: -4, scale: 1.1, boxShadow: darkMode ? "0 12px 20px rgba(168, 85, 247, 0.4)" : "0 12px 24px rgba(147, 51, 234, 0.25)" }}
-                className={`px-6 py-3 rounded-full font-bold text-sm shadow-xl cursor-default select-none transition-all duration-300 border-0 hover:-translate-y-1 ${
+                className={`px-6 py-3 rounded-full font-mono font-bold text-sm shadow-xl cursor-default select-none transition-all duration-300 border-0 hover:-translate-y-1 ${
                   darkMode 
                     ? 'bg-gradient-to-r from-purple-600 via-purple-500 to-purple-400 text-white shadow-purple-500/50' 
                     : 'bg-gradient-to-r from-purple-500 to-indigo-600 text-white shadow-purple-400/50'
@@ -567,7 +575,6 @@ export default function App() {
   >
             {[
               { icon: <FiMail size={20} />, label: 'jose7blondel@gmail.com' },
-              { icon: <FiPhone size={20} />, label: "+34 632-485-849" },
               { icon: <FiMapPin size={20} />, label: t('location') },
               { icon: <FiGithub size={20} />, label: 'GitHub', href: 'https://github.com/Chijopana' },
               { icon: <FiLinkedin size={20} />, label: 'LinkedIn', href: 'https://www.linkedin.com/in/jose-manuel-blondel-moya/' },

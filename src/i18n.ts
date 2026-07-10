@@ -17,8 +17,8 @@ i18n
                     "whyHireMe": "Why Hire Me?",
                     "whyHireMeContent": [
                         {
-                            title: "Production-Ready Code",
-                            description: "All projects follow best practices: clean architecture, error handling, testing, and performance optimization. Not just pretty interfaces—solid software engineering."
+                            title: "Reliable Project Delivery",
+                            description: "I focus on clean structure, maintainable code, and clear UX decisions. The goal is building projects that are useful, stable, and easy to evolve."
                         },
                         {
                             title: "Full-Stack Versatility",
@@ -90,26 +90,16 @@ i18n
                         "Next.js / Vite",
                         "Node.js & Express.js",
                         "MongoDB & PostgreSQL",
-                        "Tailwind CSS / CSS3 / SCSS",
-                        "Framer Motion / Animations",
-                        "RESTful APIs & GraphQL",
-                        "Git & GitHub (Advanced)",
-                        "Docker & Containerization",
-                        "Testing (Jest, React Testing Library)",
-                        "Webpack & Build Tools",
+                        "Tailwind CSS / CSS3",
+                        "Framer Motion",
+                        "REST APIs",
+                        "Git & GitHub",
                         "SEO & Web Performance",
                         "Accessibility (WCAG 2.1)",
-                        "Agile & Scrum",
-                        "Angular / Vue.js"
+                        "Angular (Project Experience)"
                     ],
-                    experience: "Professional Experience",
+                    experience: "Learning & Experience",
                     experienceContent: [
-                        {
-                            "company": "Portfolio Development",
-                            "role": "Lead Developer",
-                            "period": "2024 - Present",
-                            "details": "Designed and developed professional portfolio using React, TypeScript, and Tailwind CSS. Implemented multi-language support (EN/ES/CA), dark mode toggle, working contact form, and comprehensive SEO optimization. Fully compliant with WCAG 2.1 AA accessibility standards."
-                        },
                         {
                             "company": "Full-Stack Bootcamp - AI & Web Development",
                             "role": "Fullstack Developer (Student)",
@@ -193,8 +183,8 @@ i18n
                     "whyHireMe": "¿Por qué contratarme?",
                     "whyHireMeContent": [
                         {
-                            title: "Código Listo para Producción",
-                            description: "Todos mis proyectos siguen mejores prácticas: arquitectura limpia, manejo de errores, testing, y optimización. No solo interfaces bonitas—ingeniería de software sólida."
+                            title: "Entrega de Proyectos Fiable",
+                            description: "Me enfoco en estructura clara, codigo mantenible y decisiones de UX bien justificadas. El objetivo es construir proyectos utiles, estables y faciles de evolucionar."
                         },
                         {
                             title: "Versatilidad Full-Stack",
@@ -266,26 +256,16 @@ i18n
                         "Next.js / Vite",
                         "Node.js & Express.js",
                         "MongoDB & PostgreSQL",
-                        "Tailwind CSS / CSS3 / SCSS",
-                        "Framer Motion / Animaciones",
-                        "APIs REST & GraphQL",
-                        "Git & GitHub (Avanzado)",
-                        "Docker & Contenedores",
-                        "Testing (Jest, React Testing Library)",
-                        "Webpack & Herramientas de Build",
+                        "Tailwind CSS / CSS3",
+                        "Framer Motion",
+                        "APIs REST",
+                        "Git & GitHub",
                         "SEO & Rendimiento Web",
                         "Accesibilidad (WCAG 2.1)",
-                        "Agile & Scrum",
-                        "Angular / Vue.js"
+                        "Angular (Experiencia en Proyectos)"
                     ],
-                    experience: "Experiencia Profesional",
+                    experience: "Formacion y Experiencia",
                     experienceContent: [
-                        {
-                            company: "Desarrollo de Portafolio",
-                            role: "Desarrollador Principal",
-                            period: "2024 - Presente",
-                            details: "Diseñé y desarrollé portafolio profesional usando React, TypeScript y Tailwind CSS. Implementé soporte multidioma (EN/ES/CA), toggle de modo oscuro, formulario de contacto funcional y optimización SEO completa. Completamente conforme a estándares WCAG 2.1 AA."
-                        },
                         {
                             company: "Bootcamp Full-Stack - IA y Desarrollo Web",
                             role: "Desarrollador Fullstack (Estudiante)",
@@ -369,8 +349,8 @@ i18n
                     "whyHireMe": "Per què contractar-me?",
                     "whyHireMeContent": [
                         {
-                            title: "Codi Llest per a Producció",
-                            description: "Tots els meus projectes segueixen millors pràctiques: arquitectura neta, maneig d'errors, testing i optimització. No només interfícies boniques—enginyeria de software sòlida."
+                            title: "Entrega de Projectes Fiable",
+                            description: "M'enfoco en estructura clara, codi mantenible i decisions d'UX ben justificades. L'objectiu es construir projectes utils, estables i facils d'evolucionar."
                         },
                         {
                             title: "Versatilitat Full-Stack",
@@ -442,26 +422,16 @@ i18n
                         "Next.js / Vite",
                         "Node.js & Express.js",
                         "MongoDB & PostgreSQL",
-                        "Tailwind CSS / CSS3 / SCSS",
-                        "Framer Motion / Animacions",
-                        "APIs REST & GraphQL",
-                        "Git & GitHub (Avançat)",
-                        "Docker & Contenidors",
-                        "Testing (Jest, React Testing Library)",
-                        "Webpack & Eines de Build",
+                        "Tailwind CSS / CSS3",
+                        "Framer Motion",
+                        "APIs REST",
+                        "Git & GitHub",
                         "SEO & Rendiment Web",
                         "Accessibilitat (WCAG 2.1)",
-                        "Agile & Scrum",
-                        "Angular / Vue.js"
+                        "Angular (Experiencia en Projectes)"
                     ],
-                    experience: "Experiència Professional",
+                    experience: "Formacio i Experiencia",
                     experienceContent: [
-                        {
-                            company: "Desenvolupament de Portafolis",
-                            role: "Desenvolupador Principal",
-                            period: "2024 - Present",
-                            details: "Vaig dissenyar i desenvolupar portafolis professional usant React, TypeScript i Tailwind CSS. Vaig implementar suport multiidioma (EN/ES/CA), toggle de mode fosc, formulari de contacte funcional i optimització SEO completa. Completament conforme als estàndards WCAG 2.1 AA."
-                        },
                         {
                             company: "Bootcamp Full-Stack - IA i Desenvolupament Web",
                             role: "Desenvolupador Fullstack (Estudiant)",
