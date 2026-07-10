@@ -1,4 +1,3 @@
-import React from 'react';
 // Portfolio with enhanced aesthetic improvements - v2.0.1
 // Timestamp: 2026-02-16
 import { useEffect, useState } from 'react'
@@ -14,7 +13,6 @@ export default function App() {
   const [darkMode, setDarkMode] = useState(false)
   const [showLangMenu, setShowLangMenu] = useState(false)
   const [expandedAbout, setExpandedAbout] = useState(false)
-  const _i = 0;
 
   const changeLang = (lang: string) => i18n.changeLanguage(lang)
   const projects = t('projectsContent', { returnObjects: true }) as Array<{ name: string, description: string, url: string, github: string }>
@@ -320,11 +318,8 @@ export default function App() {
           </h2>
           <div className="grid gap-8 sm:grid-cols-2">
             {projects.map(({ name, description, url, github }, i) => (
-              <motion.a
+              <motion.article
                 key={name}
-                href={url}
-                target="_blank"
-                rel="noopener noreferrer"
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
@@ -341,7 +336,7 @@ export default function App() {
                     ? 'bg-gradient-to-br from-gray-800/70 via-gray-750/70 to-gray-800/70 border-gray-600/30'
                     : 'bg-gradient-to-br from-gray-50/80 to-white/80 border border-gray-200/50'
                   }`}
-                aria-label={`${name}: ${description}. View project`}
+                aria-label={`${name}: ${description}`}
               >
                 <motion.div
                   className="w-full h-44 mb-4 overflow-hidden rounded-xl relative group"
@@ -353,6 +348,10 @@ export default function App() {
                     alt={`Screenshot of ${name}`}
                     className="w-full h-full object-cover group-hover:brightness-75 transition-all duration-300"
                     loading="lazy"
+                    onError={(event) => {
+                      event.currentTarget.onerror = null
+                      event.currentTarget.src = '/preview.png'
+                    }}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </motion.div>
@@ -380,18 +379,31 @@ export default function App() {
                   {i === 7 && <><span className="px-3 py-1 text-xs font-semibold bg-gradient-to-r from-cyan-600 to-cyan-700 text-white rounded-full shadow-sm">Next.js</span></>}
                 </div>
 
-                <a
-                  href={github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={`text-sm font-semibold underline
+                <div className="flex items-center justify-between gap-3">
+                  <a
+                    href={url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`text-sm font-semibold underline
         ${darkMode ? 'text-green-300' : 'text-green-600'}
       `}
-                  aria-label={`View ${name} source code on GitHub`}
-                >
-                  → View on GitHub
-                </a>
-              </motion.a>
+                    aria-label={`View ${name} live project`}
+                  >
+                    → View project
+                  </a>
+                  <a
+                    href={github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`text-sm font-semibold underline
+        ${darkMode ? 'text-green-300' : 'text-green-600'}
+      `}
+                    aria-label={`View ${name} source code on GitHub`}
+                  >
+                    View on GitHub
+                  </a>
+                </div>
+              </motion.article>
             ))}
 
           </div>
