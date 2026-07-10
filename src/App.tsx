@@ -351,7 +351,7 @@ export default function App() {
                   </div>
                   <div className="absolute inset-x-0 top-7 bottom-0 overflow-hidden">
                     <img
-                      src={`/assets/projects/thumb${i + 1}.png`}
+                      src={`/assets/projects/thumb${i + 1}.png?v=2`}
                       alt={`Screenshot of ${name}`}
                       className="w-full h-full object-cover group-hover:brightness-75 transition-all duration-300"
                       loading="lazy"
