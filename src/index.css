@@ -1,7 +1,98 @@
 @import "tailwindcss";
 
+/* Dark mode driven by a `dark` class on <html> (set before paint in index.html). */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ---------------------------------------------------------------------------
+   Semantic colour tokens.
+   One accent (indigo) + neutrals. Light values live on :root, dark values on
+   .dark, so every component uses the same utility (bg-surface, text-muted…)
+   regardless of theme instead of branching on a darkMode flag.
+--------------------------------------------------------------------------- */
+:root {
+  --bg: #f8fafc;
+  --bg-soft: #eef2ff;
+  --surface: #ffffff;
+  --surface-2: #f1f5f9;
+  --border: #e2e8f0;
+  --border-strong: #cbd5e1;
+  --text: #0f172a;
+  --muted: #475569;
+  --faint: #64748b;
+  --accent: #4f46e5;
+  --accent-strong: #4338ca;
+  --accent-soft: #eef2ff;
+  --on-accent: #ffffff;
+  --ring: #6366f1;
+}
+
+.dark {
+  --bg: #020617;
+  --bg-soft: #0b1220;
+  --surface: #0f172a;
+  --surface-2: #1e293b;
+  --border: #1e293b;
+  --border-strong: #334155;
+  --text: #e2e8f0;
+  --muted: #94a3b8;
+  --faint: #94a3b8;
+  --accent: #818cf8;
+  --accent-strong: #a5b4fc;
+  --accent-soft: #1e1b4b;
+  --on-accent: #0b1020;
+  --ring: #818cf8;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-bg-soft: var(--bg-soft);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+  --color-text: var(--text);
+  --color-muted: var(--muted);
+  --color-faint: var(--faint);
+  --color-accent: var(--accent);
+  --color-accent-strong: var(--accent-strong);
+  --color-accent-soft: var(--accent-soft);
+  --color-on-accent: var(--on-accent);
+  --color-ring: var(--ring);
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas,
+    monospace;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    /* Offset anchor targets so the sticky navbar never covers a heading. */
+    scroll-padding-top: 5.5rem;
+  }
+
+  body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  ::selection {
+    background: var(--accent);
+    color: var(--on-accent);
+  }
+}
+
 @layer utilities {
-  /* Screen Reader Only - Hide from visual display but keep accessible */
+  /* Screen-reader-only, revealed on keyboard focus (skip link). */
   .sr-only {
     position: absolute;
     width: 1px;
@@ -14,7 +105,6 @@
     border-width: 0;
   }
 
-  /* Show sr-only on focus for keyboard navigation */
   .focus\:not-sr-only:focus {
     position: static;
     width: auto;
@@ -25,14 +115,33 @@
     clip: auto;
     white-space: normal;
   }
+}
 
-  .fade-in {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.7s, transform 0.7s;
+/* Users who ask for less motion get none of the scroll/hover choreography. */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
   }
-  .fade-in.show {
-    opacity: 1;
-    transform: translateY(0);
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Printing (or saving to PDF) must never lose content that is waiting on a
+   scroll-triggered animation. */
+@media print {
+  * {
+    opacity: 1 !important;
+    transform: none !important;
+    box-shadow: none !important;
+  }
+
+  .no-print {
+    display: none !important;
   }
 }

@@ -4,99 +4,149 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="color-scheme" content="light dark" />
-    
+
+    <!--
+      Applies the saved theme before first paint. Without this, React renders
+      light first and corrects itself, which returning dark-mode visitors see
+      as a flash.
+    -->
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem('theme')
+          var dark = stored
+            ? stored === 'dark'
+            : window.matchMedia('(prefers-color-scheme: dark)').matches
+          if (dark) document.documentElement.classList.add('dark')
+          document.documentElement.style.colorScheme = dark ? 'dark' : 'light'
+        } catch (e) {
+          /* storage unavailable — fall back to the light theme */
+        }
+      })()
+    </script>
+
     <!-- Primary Meta Tags -->
-    <title>Jose Blondel | Full Stack Developer - React, TypeScript & Node.js</title>
-    <meta name="title" content="Jose Blondel | Full Stack Developer - React, TypeScript & Node.js" />
-    <meta name="description" content="Self-taught Full-Stack Developer specialized in React, TypeScript, and Node.js. Focused on accessible, high-performance web applications with 8+ deployed projects." />
-    <meta name="keywords" content="Frontend Developer, React Developer, TypeScript, JavaScript, Web Developer, Portfolio, Freelance, Hiring, Full Stack, Next.js, Tailwind CSS" />
+    <title>Jose Blondel | Full-Stack Developer — React, TypeScript & Node.js</title>
+    <meta name="title" content="Jose Blondel | Full-Stack Developer — React, TypeScript & Node.js" />
+    <meta
+      name="description"
+      content="Self-taught Full-Stack Developer based in Barcelona. React, TypeScript and Node.js, with 8 deployed projects — every one with a live demo and public source code."
+    />
+    <meta name="keywords" content="Full-Stack Developer, Frontend Developer, React Developer, TypeScript, Node.js, Next.js, Barcelona, Portfolio, Junior Developer" />
     <meta name="author" content="Jose Blondel" />
-    <meta name="theme-color" content="#1e40af" />
-    
-    <!-- Canonical URL -->
+    <meta name="theme-color" content="#4f46e5" />
+
     <link rel="canonical" href="https://www.joseblondel.dev/" />
-    
-    <!-- Icons & Favicons -->
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <link rel="shortcut icon" href="/vite.svg" />
-    <link rel="apple-touch-icon" href="/vite.svg" />
-    
-    <!-- Open Graph / Facebook -->
+
+    <!-- Icons -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Open Graph / Facebook / LinkedIn -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.joseblondel.dev/" />
-    <meta property="og:title" content="Jose Blondel | Full Stack Developer" />
-    <meta property="og:description" content="Self-taught Full-Stack Developer. React, TypeScript, Node.js. 8+ production apps. Check out my portfolio." />
+    <meta property="og:title" content="Jose Blondel | Full-Stack Developer" />
+    <meta
+      property="og:description"
+      content="React · TypeScript · Node.js. 8 deployed projects, each with a live demo and public source. Based in Barcelona, open to junior/mid roles."
+    />
     <meta property="og:image" content="https://www.joseblondel.dev/og-image.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="Jose Blondel Portfolio Preview" />
-    <meta property="og:site_name" content="Jose Blondel Portfolio" />
+    <meta property="og:image:alt" content="Jose Blondel — Full-Stack Developer" />
+    <meta property="og:site_name" content="Jose Blondel" />
     <meta property="og:locale" content="en_US" />
-    
-    <!-- Twitter / X Cards -->
+    <meta property="og:locale:alternate" content="es_ES" />
+    <meta property="og:locale:alternate" content="ca_ES" />
+
+    <!-- Twitter / X -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:url" content="https://www.joseblondel.dev/" />
-    <meta name="twitter:title" content="Jose Blondel | Full Stack Developer" />
-    <meta name="twitter:description" content="Self-taught Full-Stack Developer. React • TypeScript • Node.js. Open to opportunities." />
+    <meta name="twitter:title" content="Jose Blondel | Full-Stack Developer" />
+    <meta
+      name="twitter:description"
+      content="React · TypeScript · Node.js. 8 deployed projects, each with a live demo and public source."
+    />
     <meta name="twitter:image" content="https://www.joseblondel.dev/og-image.png" />
-    <meta name="twitter:image:alt" content="Jose Blondel Portfolio" />
+    <meta name="twitter:image:alt" content="Jose Blondel — Full-Stack Developer" />
     <meta name="twitter:creator" content="@_JoseBlondel" />
     <meta name="twitter:site" content="@_JoseBlondel" />
-    
-    <!-- Additional SEO Meta Tags -->
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-    <meta name="googlebot" content="index, follow" />
-    <meta name="revisit-after" content="7 days" />
-    <meta name="language" content="English, Spanish, Catalan" />
-    
-    <!-- Preconnect to external domains for performance -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
+
     <link rel="dns-prefetch" href="https://github.com" />
     <link rel="dns-prefetch" href="https://www.linkedin.com" />
   </head>
   <body>
     <div id="root"></div>
-    
-    <!-- JSON-LD Schema Markup for Google Rich Results -->
+
+    <noscript>
+      <div style="padding: 2rem; font-family: system-ui, sans-serif; text-align: center">
+        <h1>Jose Blondel — Full-Stack Developer</h1>
+        <p>This portfolio needs JavaScript enabled. You can also reach me at
+          <a href="mailto:jose7blondel@gmail.com">jose7blondel@gmail.com</a> or on
+          <a href="https://www.linkedin.com/in/jose-manuel-blondel-moya/">LinkedIn</a>.
+        </p>
+      </div>
+    </noscript>
+
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Jose Blondel",
-      "url": "https://www.joseblondel.dev",
-      "image": "https://www.joseblondel.dev/profile.png",
-      "description": "Self-taught Full-Stack Developer specializing in React, TypeScript, and Node.js. 8+ production applications.",
-      "jobTitle": "Full-Stack Developer",
-      "email": "jose7blondel@gmail.com",
-      "birthPlace": "Venezuela",
-      "address": {
-        "@type": "PostalAddress",
-        "addressRegion": "Catalonia",
-        "addressCountry": "ES"
-      },
-      "sameAs": [
-        "https://github.com/Chijopana",
-        "https://www.linkedin.com/in/jose-manuel-blondel-moya/",
-        "https://www.instagram.com/joseblondel1",
-        "https://twitter.com/_JoseBlondel"
-      ],
-      "knowsAbout": ["JavaScript", "TypeScript", "React", "Node.js", "MongoDB", "PostgreSQL", "Express.js", "Tailwind CSS", "Next.js", "Docker", "Git"]
-    }
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Jose Blondel",
+        "url": "https://www.joseblondel.dev",
+        "image": "https://www.joseblondel.dev/og-image.png",
+        "description": "Self-taught Full-Stack Developer specialising in React, TypeScript and Node.js, with 8 deployed projects.",
+        "jobTitle": "Full-Stack Developer",
+        "email": "jose7blondel@gmail.com",
+        "birthPlace": "Venezuela",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Barcelona",
+          "addressRegion": "Catalonia",
+          "addressCountry": "ES"
+        },
+        "knowsLanguage": ["Spanish", "English", "Catalan"],
+        "sameAs": [
+          "https://github.com/Chijopana",
+          "https://www.linkedin.com/in/jose-manuel-blondel-moya/",
+          "https://twitter.com/_JoseBlondel",
+          "https://www.instagram.com/joseblondel1"
+        ],
+        "knowsAbout": [
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "Next.js",
+          "Node.js",
+          "Express",
+          "MongoDB",
+          "PostgreSQL",
+          "Tailwind CSS",
+          "Angular",
+          "Git"
+        ]
+      }
     </script>
 
-    <!-- Website Schema -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "Jose Blondel Portfolio",
-      "url": "https://www.joseblondel.dev",
-      "description": "Portfolio of Jose Blondel, a Full-Stack Developer specializing in React and TypeScript",
-      "creator": {
-        "@type": "Person",
-        "name": "Jose Blondel"
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Jose Blondel — Portfolio",
+        "url": "https://www.joseblondel.dev",
+        "inLanguage": ["en", "es", "ca"],
+        "author": { "@type": "Person", "name": "Jose Blondel" }
       }
-    }
     </script>
 
     <script type="module" src="/src/main.tsx"></script>
