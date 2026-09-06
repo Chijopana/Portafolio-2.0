@@ -26,11 +26,18 @@ export const TECH = {
   jwt: { label: 'JWT Auth', color: '#f59e0b' },
   css: { label: 'CSS', color: '#2965f1' },
   capacitor: { label: 'Capacitor', color: '#53b9ff' },
+  python: { label: 'Python', color: '#3776ab' },
+  django: { label: 'Django', color: '#0c4b33' },
+  tensorflow: { label: 'TensorFlow', color: '#ff6f00' },
+  sqlite: { label: 'SQLite', color: '#0f80cc' },
+  stripe: { label: 'Stripe', color: '#635bff' },
+  vitest: { label: 'Vitest', color: '#6da13a' },
 } as const
 
 export type Project = {
   id: string
-  url: string
+  /** Absent when the project has no public deployment (only the code is public). */
+  url?: string
   github: string
   thumb: string
   tech: TechKey[]
@@ -40,11 +47,10 @@ export type Project = {
 
 export const PROJECTS: Project[] = [
   {
-    id: 'battleship',
-    url: 'https://battleship-web-game.netlify.app/',
-    github: 'https://github.com/Chijopana/battleship',
-    thumb: '/assets/projects/battleship.png',
-    tech: ['react', 'socketio', 'express', 'tailwind', 'capacitor'],
+    id: 'pulsechat',
+    github: 'https://github.com/Chijopana/pulsechat',
+    thumb: '/assets/projects/pulsechat.png',
+    tech: ['react', 'node', 'express', 'socketio', 'stripe', 'sqlite'],
     featured: true,
   },
   {
@@ -52,7 +58,22 @@ export const PROJECTS: Project[] = [
     url: 'https://task-manager-front-five.vercel.app/',
     github: 'https://github.com/Chijopana/Task-Manager',
     thumb: '/assets/projects/task-manager.png',
-    tech: ['react', 'node', 'express', 'mongodb', 'jwt'],
+    tech: ['typescript', 'react', 'node', 'express', 'mongodb', 'vitest'],
+    featured: true,
+  },
+  {
+    id: 'medilab',
+    github: 'https://github.com/Chijopana/medilab',
+    thumb: '/assets/projects/medilab.png',
+    tech: ['python', 'django', 'tensorflow', 'sqlite'],
+    featured: true,
+  },
+  {
+    id: 'battleship',
+    url: 'https://battleship-game-web.netlify.app/',
+    github: 'https://github.com/Chijopana/battleship',
+    thumb: '/assets/projects/battleship.png',
+    tech: ['react', 'socketio', 'express', 'tailwind', 'capacitor'],
     featured: true,
   },
   {

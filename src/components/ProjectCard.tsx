@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
-import { FiExternalLink, FiGithub } from 'react-icons/fi'
+import { FiExternalLink, FiGithub, FiTerminal } from 'react-icons/fi'
 import type { Project } from '../data/projects'
 import { useAnim } from '../lib/motion'
 import TechBadge from './TechBadge'
@@ -59,16 +59,24 @@ export function FeaturedProjectCard({ project, index = 0 }: Props) {
         </ul>
 
         <div className="mt-5 flex items-center gap-4 border-t border-border pt-4">
-          <a
-            href={project.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 text-sm font-semibold text-accent hover:underline"
-          >
-            <FiExternalLink size={15} aria-hidden="true" />
-            {t('projects.viewLive')}
-            <span className="sr-only"> — {name}</span>
-          </a>
+          {project.url ? (
+            <a
+              href={project.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 text-sm font-semibold text-accent hover:underline"
+            >
+              <FiExternalLink size={15} aria-hidden="true" />
+              {t('projects.viewLive')}
+              <span className="sr-only"> — {name}</span>
+            </a>
+          ) : (
+            // Self-hosted projects: say so instead of linking somewhere dead.
+            <span className="inline-flex items-center gap-1.5 text-sm font-medium text-faint">
+              <FiTerminal size={15} aria-hidden="true" />
+              {t('projects.localOnly')}
+            </span>
+          )}
           <a
             href={project.github}
             target="_blank"
@@ -109,16 +117,23 @@ export function CompactProjectCard({ project, index = 0 }: Props) {
       </ul>
 
       <div className="mt-4 flex items-center gap-4">
-        <a
-          href={project.url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-1.5 text-sm font-semibold text-accent hover:underline"
-        >
-          <FiExternalLink size={14} aria-hidden="true" />
-          {t('projects.viewLive')}
-          <span className="sr-only"> — {name}</span>
-        </a>
+        {project.url ? (
+          <a
+            href={project.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 text-sm font-semibold text-accent hover:underline"
+          >
+            <FiExternalLink size={14} aria-hidden="true" />
+            {t('projects.viewLive')}
+            <span className="sr-only"> — {name}</span>
+          </a>
+        ) : (
+          <span className="inline-flex items-center gap-1.5 text-sm font-medium text-faint">
+            <FiTerminal size={14} aria-hidden="true" />
+            {t('projects.localOnly')}
+          </span>
+        )}
         <a
           href={project.github}
           target="_blank"
