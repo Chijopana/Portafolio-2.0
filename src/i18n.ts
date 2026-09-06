@@ -125,7 +125,7 @@ const en = {
       ecommerce: {
         name: 'Mini E-Commerce',
         description:
-          'Angular and TypeScript store with a product catalog, cart and checkout flow, built on Angular Material components and injectable services.',
+          'Angular and TypeScript store: catalogue with filters by category, price and rating, search, cart and checkout flow. Built on Angular Material components and injectable services, with dark mode and multi-language support.',
       },
       portfolio: {
         name: 'This portfolio',
@@ -325,7 +325,7 @@ const es: typeof en = {
       ecommerce: {
         name: 'Mini E-Commerce',
         description:
-          'Tienda en Angular y TypeScript con catálogo de productos, carrito y flujo de compra, construida sobre componentes de Angular Material y servicios inyectables.',
+          'Tienda en Angular y TypeScript: catálogo con filtros por categoría, precio y valoración, buscador, carrito y flujo de compra. Construida sobre componentes de Angular Material y servicios inyectables, con modo oscuro y soporte multiidioma.',
       },
       portfolio: {
         name: 'Este portafolio',
@@ -525,7 +525,7 @@ const ca: typeof en = {
       ecommerce: {
         name: 'Mini E-Commerce',
         description:
-          'Botiga en Angular i TypeScript amb catàleg de productes, cistella i flux de compra, construïda sobre components d\'Angular Material i serveis injectables.',
+          'Botiga en Angular i TypeScript: catàleg amb filtres per categoria, preu i valoració, cercador, cistella i flux de compra. Construïda sobre components d\'Angular Material i serveis injectables, amb mode fosc i suport multiidioma.',
       },
       portfolio: {
         name: 'Aquest portafolis',
