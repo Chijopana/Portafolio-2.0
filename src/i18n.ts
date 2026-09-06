@@ -89,22 +89,33 @@ const en = {
   },
   projects: {
     title: 'Projects',
-    subtitle: 'Every one of them has a live demo and public source code.',
+    subtitle: 'Public source code for all of them, and a live demo for most.',
     featured: 'Selected work',
     more: 'Also built',
     viewLive: 'Live demo',
     viewCode: 'Code',
+    localOnly: 'Runs locally',
     screenshotAlt: 'Screenshot of {{name}}',
     items: {
+      pulsechat: {
+        name: 'PulseChat — pay-to-unlock chat',
+        description:
+          'Private chat where any message can be put behind a price and unlocked through Stripe. The server never ships unpaid content: locked text leaves only a masked teaser, and images go through an endpoint that re-checks the purchase on every request, so a leaked URL is worthless. Real-time delivery over Socket.IO.',
+      },
+      medilab: {
+        name: 'Medilab — medical records system',
+        description:
+          'Django platform with separate portals for patients and clinical staff. Preliminary image diagnosis with a Keras model, an intent chatbot for quick questions, role-based permissions and PDF export of the record.',
+      },
       battleship: {
         name: 'Battleship — online multiplayer',
         description:
           'Turn-based naval game with a local AI opponent and an online mode over WebSockets. React + Vite client, Express + Socket.IO server handling matchmaking and real-time turns, plus a Capacitor Android build.',
       },
       taskManager: {
-        name: 'Task Manager (MERN)',
+        name: 'Task Manager',
         description:
-          'Full-stack task app with registration and login via JWT, protected routes and per-user tasks. React client and an Express + MongoDB API split into models, controllers and middleware.',
+          'Full-stack task app in TypeScript: due dates, priorities and tags, JWT sessions that can be revoked on every device at once, and an optimistic UI that rolls back when the server refuses. Validation lives once in a shared workspace both sides import, covered by 82 tests running in CI.',
       },
       weather: {
         name: 'Weather App',
@@ -278,22 +289,33 @@ const es: typeof en = {
   },
   projects: {
     title: 'Proyectos',
-    subtitle: 'Todos tienen demo en vivo y código fuente público.',
+    subtitle: 'Código fuente público en todos, y demo en vivo en la mayoría.',
     featured: 'Trabajo destacado',
     more: 'También he construido',
     viewLive: 'Ver demo',
     viewCode: 'Código',
+    localOnly: 'Se ejecuta en local',
     screenshotAlt: 'Captura de {{name}}',
     items: {
+      pulsechat: {
+        name: 'PulseChat — chat con contenido de pago',
+        description:
+          'Chat privado donde cualquier mensaje puede ponerse tras un precio y desbloquearse con Stripe. El servidor nunca envía lo que no se ha pagado: del texto bloqueado solo sale un adelanto enmascarado, y las imágenes pasan por un endpoint que vuelve a comprobar la compra en cada petición, así que una URL filtrada no sirve de nada. Entrega en tiempo real con Socket.IO.',
+      },
+      medilab: {
+        name: 'Medilab — gestión de expedientes médicos',
+        description:
+          'Plataforma en Django con portales separados para pacientes y personal sanitario. Diagnóstico preliminar por imagen con un modelo de Keras, chatbot de intenciones para dudas rápidas, permisos por rol y exportación del expediente a PDF.',
+      },
       battleship: {
         name: 'Battleship — multijugador online',
         description:
           'Juego naval por turnos con oponente IA en local y modo online sobre WebSockets. Cliente React + Vite, servidor Express + Socket.IO que gestiona el emparejamiento y los turnos en tiempo real, y una build de Android con Capacitor.',
       },
       taskManager: {
-        name: 'Gestor de tareas (MERN)',
+        name: 'Gestor de tareas',
         description:
-          'Aplicación full-stack con registro y login mediante JWT, rutas protegidas y tareas por usuario. Cliente en React y API Express + MongoDB separada en modelos, controladores y middleware.',
+          'Aplicación de tareas full-stack en TypeScript: fechas de vencimiento, prioridades y etiquetas, sesiones JWT revocables en todos los dispositivos a la vez e interfaz optimista que revierte si el servidor rechaza el cambio. La validación vive una sola vez en un workspace compartido que importan ambos lados, con 82 tests ejecutándose en CI.',
       },
       weather: {
         name: 'App del tiempo',
@@ -467,22 +489,33 @@ const ca: typeof en = {
   },
   projects: {
     title: 'Projectes',
-    subtitle: 'Tots tenen demo en viu i codi font públic.',
+    subtitle: 'Codi font públic en tots, i demo en viu en la majoria.',
     featured: 'Feina destacada',
     more: 'També he construït',
     viewLive: 'Veure demo',
     viewCode: 'Codi',
+    localOnly: "S'executa en local",
     screenshotAlt: 'Captura de {{name}}',
     items: {
+      pulsechat: {
+        name: 'PulseChat — xat amb contingut de pagament',
+        description:
+          "Xat privat on qualsevol missatge es pot posar darrere d'un preu i desbloquejar-se amb Stripe. El servidor no envia mai allò que no s'ha pagat: del text bloquejat només en surt un tast emmascarat, i les imatges passen per un endpoint que torna a comprovar la compra a cada petició, de manera que una URL filtrada no serveix de res. Lliurament en temps real amb Socket.IO.",
+      },
+      medilab: {
+        name: 'Medilab — gestió d\'expedients mèdics',
+        description:
+          'Plataforma en Django amb portals separats per a pacients i personal sanitari. Diagnòstic preliminar per imatge amb un model de Keras, chatbot d\'intencions per a dubtes ràpids, permisos per rol i exportació de l\'expedient a PDF.',
+      },
       battleship: {
         name: 'Battleship — multijugador en línia',
         description:
           "Joc naval per torns amb oponent IA en local i mode en línia sobre WebSockets. Client React + Vite, servidor Express + Socket.IO que gestiona l'emparellament i els torns en temps real, i una build d'Android amb Capacitor.",
       },
       taskManager: {
-        name: 'Gestor de tasques (MERN)',
+        name: 'Gestor de tasques',
         description:
-          'Aplicació full-stack amb registre i login mitjançant JWT, rutes protegides i tasques per usuari. Client en React i API Express + MongoDB separada en models, controladors i middleware.',
+          "Aplicació de tasques full-stack en TypeScript: dates de venciment, prioritats i etiquetes, sessions JWT revocables a tots els dispositius alhora i interfície optimista que reverteix si el servidor rebutja el canvi. La validació viu una sola vegada en un workspace compartit que importen tots dos costats, amb 82 tests executant-se en CI.",
       },
       weather: {
         name: 'App del temps',
