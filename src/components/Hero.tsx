@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
 import { FiArrowRight, FiDownload, FiMail } from 'react-icons/fi'
 import { CV_BY_LANG, SITE } from '../data/site'
-import { PROJECTS } from '../data/projects'
+import { DEPLOYED_PROJECTS } from '../data/projects'
 import { useLanguage } from '../hooks/useLanguage'
 import { useAnim } from '../lib/motion'
 
@@ -97,7 +97,7 @@ export default function Hero() {
             <div>
               <dt className="sr-only">{t('hero.statProjects')}</dt>
               <dd className="text-2xl font-bold text-text">
-                {PROJECTS.length}
+                {DEPLOYED_PROJECTS.length}
                 <span className="ml-2 text-sm font-medium text-muted">
                   {t('hero.statProjects')}
                 </span>
@@ -147,7 +147,7 @@ export default function Hero() {
                 {'\n'}  based: <span className="text-emerald-500 dark:text-emerald-400">
                   &quot;Barcelona, ES&quot;
                 </span>,
-                {'\n'}  shipped: <span className="text-accent">{PROJECTS.length}</span>,
+                {'\n'}  shipped: <span className="text-accent">{DEPLOYED_PROJECTS.length}</span>,
                 {'\n'}  status: <span className="text-emerald-500 dark:text-emerald-400">
                   &quot;open to work&quot;
                 </span>,

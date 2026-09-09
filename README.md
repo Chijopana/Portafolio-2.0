@@ -60,6 +60,7 @@ npm run dev
 
 | Project | Stack | Links |
 | ------- | ----- | ----- |
+| The Ultimate Experience — venue booking (client work) | WordPress, PHP, JavaScript, CSS | [live](https://www.theultimateexperience.com.mx/reservas/) · code private |
 | Battleship — online multiplayer | React, Socket.IO, Express, Capacitor | [demo](https://battleship-web-game.netlify.app/) · [code](https://github.com/Chijopana/battleship) |
 | Task Manager (MERN) | React, Node, Express, MongoDB, JWT | [demo](https://task-manager-front-five.vercel.app/) · [code](https://github.com/Chijopana/Task-Manager) |
 | Weather App | Next.js, TypeScript | [demo](https://weather-app-4gmb.vercel.app/) · [code](https://github.com/Chijopana/weather-app) |

@@ -15,6 +15,11 @@ export type ExperienceEntry = {
 
 export const EXPERIENCE: ExperienceEntry[] = [
   {
+    id: 'freelance',
+    org: 'The Ultimate Experience · Los Cabos, México',
+    period: '2025',
+  },
+  {
     id: 'daw',
     org: 'IOC — Institut Obert de Catalunya',
     period: '2025 — 2027',

@@ -54,7 +54,7 @@ const en = {
     intro:
       "I'm a self-taught developer who went from studying Computer Engineering in Venezuela to building web applications in Barcelona. What keeps me here is the part of the job where a rough idea becomes something people can actually use — and the part right after, where you go back and make it simpler.",
     bullets: [
-      'Eight projects deployed and online, from plain-JavaScript games to a real-time multiplayer game with its own Node backend.',
+      'Nine projects deployed and online — including a paid client site — from plain-JavaScript games to a real-time multiplayer game with its own Node backend.',
       'Comfortable across the stack: React and Next.js on the front, Express, MongoDB and JWT auth on the back.',
       "Careful with the details that don't show up in a screenshot: keyboard navigation, reduced motion, semantics and SEO.",
     ],
@@ -89,14 +89,21 @@ const en = {
   },
   projects: {
     title: 'Projects',
-    subtitle: 'Public source code for all of them, and a live demo for most.',
+    subtitle: 'Client work and personal builds — live, not slideware.',
     featured: 'Selected work',
     more: 'Also built',
     viewLive: 'Live demo',
     viewCode: 'Code',
     localOnly: 'Runs locally',
+    privateCode: 'Private client code',
+    clientWork: 'Client work',
     screenshotAlt: 'Screenshot of {{name}}',
     items: {
+      ultimateExperience: {
+        name: 'The Ultimate Experience — venue booking',
+        description:
+          "Freelance work for a luxury concierge in Los Cabos: a bilingual booking page for seven restaurants, live and taking real reservations. WordPress was the client's constraint, so the venue cards, the modal that opens pre-filled with the venue you clicked, the collapsible detail panels and the gallery lightbox are hand-written HTML, CSS and JavaScript inside Elementor rather than dragged-together widgets. The form posts to a PHP handler I wrote on the WordPress AJAX endpoint, which sends two emails per request — a confirmation to the guest and the full booking to the company.",
+      },
       pulsechat: {
         name: 'PulseChat — pay-to-unlock chat',
         description:
@@ -160,8 +167,13 @@ const en = {
   },
   experience: {
     title: 'Experience & learning',
-    subtitle: "No paid industry role yet — this is what I've been doing instead.",
+    subtitle: 'One paid freelance client so far, alongside the studying and building that got me there.',
     items: {
+      freelance: {
+        role: 'Freelance web developer',
+        details:
+          'Built and shipped the bilingual booking page for a luxury concierge company: seven venues, a booking modal and a PHP handler that emails the guest and the company on every request. Working to a client’s brand, a client’s CMS and a client’s deadline.',
+      },
       daw: {
         role: 'Web Application Development (DAW)',
         details:
@@ -170,7 +182,7 @@ const en = {
       selfTaught: {
         role: 'Self-taught developer',
         details:
-          'Certifications from Meta, Google, IBM and AWS, and a steady stream of projects — every one of them deployed and public on GitHub.',
+          'Certifications from Meta, Google, IBM and AWS, and a steady stream of projects — every one of them deployed, and public on GitHub unless a client owns the code.',
       },
       bootcamp: {
         role: 'Full-Stack student',
@@ -254,7 +266,7 @@ const es: typeof en = {
     intro:
       'Soy desarrollador autodidacta y pasé de estudiar Ingeniería Informática en Venezuela a construir aplicaciones web en Barcelona. Lo que me engancha es esa parte del oficio en la que una idea difusa acaba siendo algo que la gente puede usar de verdad, y la parte siguiente: volver sobre ello y hacerlo más simple.',
     bullets: [
-      'Ocho proyectos desplegados y online, desde juegos en JavaScript puro hasta un multijugador en tiempo real con su propio backend en Node.',
+      'Nueve proyectos desplegados y online —uno de ellos un encargo pagado— desde juegos en JavaScript puro hasta un multijugador en tiempo real con su propio backend en Node.',
       'Me muevo en toda la pila: React y Next.js en el front; Express, MongoDB y autenticación con JWT en el back.',
       'Cuido los detalles que no se ven en una captura: navegación por teclado, movimiento reducido, semántica y SEO.',
     ],
@@ -289,14 +301,21 @@ const es: typeof en = {
   },
   projects: {
     title: 'Proyectos',
-    subtitle: 'Código fuente público en todos, y demo en vivo en la mayoría.',
+    subtitle: 'Trabajo para cliente y proyectos propios: en producción, no en diapositivas.',
     featured: 'Trabajo destacado',
     more: 'También he construido',
     viewLive: 'Ver demo',
     viewCode: 'Código',
     localOnly: 'Se ejecuta en local',
+    privateCode: 'Código privado del cliente',
+    clientWork: 'Proyecto de cliente',
     screenshotAlt: 'Captura de {{name}}',
     items: {
+      ultimateExperience: {
+        name: 'The Ultimate Experience — reservas de venues',
+        description:
+          'Encargo freelance para una empresa de concierge de lujo en Los Cabos: una página bilingüe de reservas para siete restaurantes, en producción y recibiendo reservas reales. WordPress venía impuesto por el cliente, así que las tarjetas de cada venue, el modal que se abre ya con el restaurante seleccionado, los paneles de información plegables y el lightbox de la galería son HTML, CSS y JavaScript escritos a mano dentro de Elementor, no widgets arrastrados. El formulario envía a un handler en PHP que escribí sobre el endpoint AJAX de WordPress, y que manda dos correos por solicitud: la confirmación al cliente y la reserva completa a la empresa.',
+      },
       pulsechat: {
         name: 'PulseChat — chat con contenido de pago',
         description:
@@ -360,8 +379,13 @@ const es: typeof en = {
   },
   experience: {
     title: 'Experiencia y formación',
-    subtitle: 'Todavía sin puesto remunerado en empresa: esto es lo que he estado haciendo mientras tanto.',
+    subtitle: 'Un cliente freelance hasta ahora, junto al estudio y los proyectos que me llevaron hasta él.',
     items: {
+      freelance: {
+        role: 'Desarrollador web freelance',
+        details:
+          'Construí y puse en producción la página bilingüe de reservas de una empresa de concierge de lujo: siete venues, un modal de reserva y un handler en PHP que envía correo al cliente y a la empresa en cada solicitud. Trabajando con la marca, el CMS y los plazos de un cliente real.',
+      },
       daw: {
         role: 'Desarrollo de Aplicaciones Web (DAW)',
         details:
@@ -370,7 +394,7 @@ const es: typeof en = {
       selfTaught: {
         role: 'Desarrollador autodidacta',
         details:
-          'Certificaciones de Meta, Google, IBM y AWS, y una sucesión constante de proyectos: todos desplegados y públicos en GitHub.',
+          'Certificaciones de Meta, Google, IBM y AWS, y una sucesión constante de proyectos: todos desplegados, y públicos en GitHub salvo cuando el código es de un cliente.',
       },
       bootcamp: {
         role: 'Estudiante Full-Stack',
@@ -454,7 +478,7 @@ const ca: typeof en = {
     intro:
       "Soc desenvolupador autodidacta i vaig passar d'estudiar Enginyeria Informàtica a Veneçuela a construir aplicacions web a Barcelona. El que m'enganxa és aquella part de l'ofici en què una idea difusa acaba sent alguna cosa que la gent pot fer servir de debò, i la part següent: tornar-hi i fer-ho més simple.",
     bullets: [
-      'Vuit projectes desplegats i en línia, des de jocs en JavaScript pur fins a un multijugador en temps real amb el seu propi backend en Node.',
+      "Nou projectes desplegats i en línia —un d'ells un encàrrec pagat— des de jocs en JavaScript pur fins a un multijugador en temps real amb el seu propi backend en Node.",
       'Em moc per tota la pila: React i Next.js al front; Express, MongoDB i autenticació amb JWT al back.',
       'Cuido els detalls que no es veuen en una captura: navegació amb teclat, moviment reduït, semàntica i SEO.',
     ],
@@ -489,14 +513,21 @@ const ca: typeof en = {
   },
   projects: {
     title: 'Projectes',
-    subtitle: 'Codi font públic en tots, i demo en viu en la majoria.',
+    subtitle: 'Feina per a client i projectes propis: en producció, no en diapositives.',
     featured: 'Feina destacada',
     more: 'També he construït',
     viewLive: 'Veure demo',
     viewCode: 'Codi',
     localOnly: "S'executa en local",
+    privateCode: 'Codi privat del client',
+    clientWork: 'Projecte de client',
     screenshotAlt: 'Captura de {{name}}',
     items: {
+      ultimateExperience: {
+        name: 'The Ultimate Experience — reserves de venues',
+        description:
+          "Encàrrec freelance per a una empresa de concierge de luxe a Los Cabos: una pàgina bilingüe de reserves per a set restaurants, en producció i rebent reserves reals. WordPress venia imposat pel client, així que les targetes de cada venue, el modal que s'obre ja amb el restaurant seleccionat, els panells d'informació plegables i el lightbox de la galeria són HTML, CSS i JavaScript escrits a mà dins d'Elementor, no widgets arrossegats. El formulari envia a un handler en PHP que vaig escriure sobre l'endpoint AJAX de WordPress, que envia dos correus per sol·licitud: la confirmació al client i la reserva completa a l'empresa.",
+      },
       pulsechat: {
         name: 'PulseChat — xat amb contingut de pagament',
         description:
@@ -560,8 +591,13 @@ const ca: typeof en = {
   },
   experience: {
     title: 'Experiència i formació',
-    subtitle: "Encara sense lloc remunerat en empresa: això és el que he anat fent mentrestant.",
+    subtitle: "Un client freelance fins ara, al costat de l'estudi i els projectes que m'hi van portar.",
     items: {
+      freelance: {
+        role: 'Desenvolupador web freelance',
+        details:
+          "Vaig construir i posar en producció la pàgina bilingüe de reserves d'una empresa de concierge de luxe: set venues, un modal de reserva i un handler en PHP que envia correu al client i a l'empresa a cada sol·licitud. Treballant amb la marca, el CMS i els terminis d'un client real.",
+      },
       daw: {
         role: "Desenvolupament d'Aplicacions Web (DAW)",
         details:
@@ -570,7 +606,7 @@ const ca: typeof en = {
       selfTaught: {
         role: 'Desenvolupador autodidacta',
         details:
-          'Certificacions de Meta, Google, IBM i AWS, i una successió constant de projectes: tots desplegats i públics a GitHub.',
+          "Certificacions de Meta, Google, IBM i AWS, i una successió constant de projectes: tots desplegats, i públics a GitHub tret que el codi sigui d'un client.",
       },
       bootcamp: {
         role: 'Estudiant Full-Stack',

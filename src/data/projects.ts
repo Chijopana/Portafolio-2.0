@@ -32,20 +32,33 @@ export const TECH = {
   sqlite: { label: 'SQLite', color: '#0f80cc' },
   stripe: { label: 'Stripe', color: '#635bff' },
   vitest: { label: 'Vitest', color: '#6da13a' },
+  wordpress: { label: 'WordPress', color: '#21759b' },
+  php: { label: 'PHP', color: '#777bb4' },
 } as const
 
 export type Project = {
   id: string
   /** Absent when the project has no public deployment (only the code is public). */
   url?: string
-  github: string
+  /** Absent on client work, where the repository belongs to the client. */
+  github?: string
   thumb: string
   tech: TechKey[]
   /** Featured projects get a large card; the rest are listed compactly. */
   featured: boolean
+  /** Paid client work — flagged so the card can say so. */
+  client?: boolean
 }
 
 export const PROJECTS: Project[] = [
+  {
+    id: 'ultimateExperience',
+    url: 'https://www.theultimateexperience.com.mx/reservas/',
+    thumb: '/assets/projects/ultimate-experience.png',
+    tech: ['wordpress', 'php', 'javascript', 'css'],
+    featured: true,
+    client: true,
+  },
   {
     id: 'pulsechat',
     github: 'https://github.com/Chijopana/pulsechat',
@@ -128,3 +141,9 @@ export const PROJECTS: Project[] = [
 
 export const FEATURED_PROJECTS = PROJECTS.filter((p) => p.featured)
 export const OTHER_PROJECTS = PROJECTS.filter((p) => !p.featured)
+
+/**
+ * The hero counts these, not `PROJECTS`: "deployed" has to mean a URL a
+ * visitor can open, so the self-hosted ones don't inflate the number.
+ */
+export const DEPLOYED_PROJECTS = PROJECTS.filter((p) => p.url)
